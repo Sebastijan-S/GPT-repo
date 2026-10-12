@@ -1,0 +1,48 @@
+[
+  {
+    "file": "index.html",
+    "duplicateIds": [],
+    "brokenLocalRefs": [],
+    "schema": [
+      {
+        "validJSON": true,
+        "type": "ProfessionalService"
+      }
+    ],
+    "hasNoindex": false,
+    "title": "SNIngenia | Web Design &amp; Development Studio in Serbia (Webflow, Framer)",
+    "revealCount": 37
+  },
+  {
+    "file": "sr/index.html",
+    "duplicateIds": [],
+    "brokenLocalRefs": [],
+    "schema": [
+      {
+        "validJSON": true,
+        "type": "ProfessionalService"
+      }
+    ],
+    "hasNoindex": false,
+    "title": "SNIngenia | Veb dizajn i izrada sajtova u Srbiji (Webflow, Framer)",
+    "revealCount": 37
+  },
+  {
+    "file": "privacy.html",
+    "duplicateIds": [],
+    "brokenLocalRefs": [],
+    "schema": [],
+    "hasNoindex": false,
+    "title": "Privacy Policy | SNIngenia",
+    "revealCount": 0
+  },
+  {
+    "file": "sr/privacy.html",
+    "duplicateIds": [],
+    "brokenLocalRefs": [],
+    "schema": [],
+    "hasNoindex": false,
+    "title": "Politika privatnosti | SNIngenia",
+    "revealCount": 0
+  }
+]

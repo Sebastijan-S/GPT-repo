@@ -1,0 +1,56 @@
+[
+  {
+    "Name": "www.sningenia.com",
+    "Type": 5,
+    "NameHost": "sebastijan-s.github.io",
+    "IPAddress": null
+  },
+  {
+    "Name": "sebastijan-s.github.io",
+    "Type": 28,
+    "NameHost": null,
+    "IPAddress": "2606:50c0:8001::153"
+  },
+  {
+    "Name": "sebastijan-s.github.io",
+    "Type": 28,
+    "NameHost": null,
+    "IPAddress": "2606:50c0:8002::153"
+  },
+  {
+    "Name": "sebastijan-s.github.io",
+    "Type": 28,
+    "NameHost": null,
+    "IPAddress": "2606:50c0:8003::153"
+  },
+  {
+    "Name": "sebastijan-s.github.io",
+    "Type": 28,
+    "NameHost": null,
+    "IPAddress": "2606:50c0:8000::153"
+  },
+  {
+    "Name": "sebastijan-s.github.io",
+    "Type": 1,
+    "NameHost": null,
+    "IPAddress": "185.199.109.153"
+  },
+  {
+    "Name": "sebastijan-s.github.io",
+    "Type": 1,
+    "NameHost": null,
+    "IPAddress": "185.199.110.153"
+  },
+  {
+    "Name": "sebastijan-s.github.io",
+    "Type": 1,
+    "NameHost": null,
+    "IPAddress": "185.199.111.153"
+  },
+  {
+    "Name": "sebastijan-s.github.io",
+    "Type": 1,
+    "NameHost": null,
+    "IPAddress": "185.199.108.153"
+  }
+]

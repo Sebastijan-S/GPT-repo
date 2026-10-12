@@ -1,0 +1,43 @@
+{
+  "head": "963c29a9077bbcf02f6d410aaa384c2c86261362",
+  "branch": "main",
+  "status": " M styles.css",
+  "normalizedComparison": [
+    {
+      "file": "index.html",
+      "equalNormalized": true
+    },
+    {
+      "file": "sr/index.html",
+      "equalNormalized": true
+    },
+    {
+      "file": "privacy.html",
+      "equalNormalized": true
+    },
+    {
+      "file": "sr/privacy.html",
+      "equalNormalized": true
+    },
+    {
+      "file": "analytics.js",
+      "equalNormalized": true
+    },
+    {
+      "file": "script.js",
+      "equalNormalized": true
+    },
+    {
+      "file": "styles.css",
+      "equalNormalized": false
+    },
+    {
+      "file": "robots.txt",
+      "equalNormalized": true
+    },
+    {
+      "file": "sitemap.xml",
+      "equalNormalized": true
+    }
+  ]
+}

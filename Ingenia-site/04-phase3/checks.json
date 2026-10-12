@@ -1,0 +1,152 @@
+[
+  {
+    "lang": "en",
+    "width": 320,
+    "overflow": false,
+    "dialogs": 4,
+    "sticky": true,
+    "focus": true,
+    "errors": []
+  },
+  {
+    "lang": "en",
+    "width": 390,
+    "overflow": false,
+    "dialogs": 4,
+    "sticky": true,
+    "focus": true,
+    "errors": []
+  },
+  {
+    "lang": "en",
+    "width": 768,
+    "overflow": false,
+    "dialogs": 4,
+    "sticky": true,
+    "focus": true,
+    "errors": []
+  },
+  {
+    "lang": "en",
+    "width": 1024,
+    "overflow": false,
+    "dialogs": 4,
+    "sticky": true,
+    "focus": true,
+    "errors": []
+  },
+  {
+    "lang": "en",
+    "width": 1440,
+    "overflow": false,
+    "dialogs": 4,
+    "sticky": true,
+    "focus": true,
+    "errors": []
+  },
+  {
+    "lang": "en",
+    "mode": "no-js",
+    "passed": true
+  },
+  {
+    "lang": "en",
+    "mode": "blocked-script",
+    "passed": true
+  },
+  {
+    "lang": "en",
+    "mode": "no-observers",
+    "passed": true
+  },
+  {
+    "lang": "en",
+    "mode": "zoom-200",
+    "passed": true
+  },
+  {
+    "lang": "en",
+    "mode": "default-motion",
+    "passed": true
+  },
+  {
+    "lang": "en",
+    "mode": "slow-image",
+    "passed": true
+  },
+  {
+    "lang": "sr",
+    "width": 320,
+    "overflow": false,
+    "dialogs": 4,
+    "sticky": true,
+    "focus": true,
+    "errors": []
+  },
+  {
+    "lang": "sr",
+    "width": 390,
+    "overflow": false,
+    "dialogs": 4,
+    "sticky": true,
+    "focus": true,
+    "errors": []
+  },
+  {
+    "lang": "sr",
+    "width": 768,
+    "overflow": false,
+    "dialogs": 4,
+    "sticky": true,
+    "focus": true,
+    "errors": []
+  },
+  {
+    "lang": "sr",
+    "width": 1024,
+    "overflow": false,
+    "dialogs": 4,
+    "sticky": true,
+    "focus": true,
+    "errors": []
+  },
+  {
+    "lang": "sr",
+    "width": 1440,
+    "overflow": false,
+    "dialogs": 4,
+    "sticky": true,
+    "focus": true,
+    "errors": []
+  },
+  {
+    "lang": "sr",
+    "mode": "no-js",
+    "passed": true
+  },
+  {
+    "lang": "sr",
+    "mode": "blocked-script",
+    "passed": true
+  },
+  {
+    "lang": "sr",
+    "mode": "no-observers",
+    "passed": true
+  },
+  {
+    "lang": "sr",
+    "mode": "zoom-200",
+    "passed": true
+  },
+  {
+    "lang": "sr",
+    "mode": "default-motion",
+    "passed": true
+  },
+  {
+    "lang": "sr",
+    "mode": "slow-image",
+    "passed": true
+  }
+]

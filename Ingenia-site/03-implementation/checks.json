@@ -1,0 +1,107 @@
+{
+  "results": [
+    {
+      "route": "/",
+      "width": 1440,
+      "height": 900,
+      "status": "passed"
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "height": 844,
+      "status": "passed"
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "height": 844,
+      "status": "passed"
+    },
+    {
+      "route": "sr/",
+      "width": 1440,
+      "height": 900,
+      "status": "passed"
+    },
+    {
+      "route": "sr/",
+      "width": 390,
+      "height": 844,
+      "status": "passed"
+    },
+    {
+      "route": "sr/",
+      "width": 320,
+      "height": 844,
+      "status": "passed"
+    },
+    {
+      "route": "privacy.html",
+      "width": 1440,
+      "height": 900,
+      "status": "passed"
+    },
+    {
+      "route": "privacy.html",
+      "width": 390,
+      "height": 844,
+      "status": "passed"
+    },
+    {
+      "route": "privacy.html",
+      "width": 320,
+      "height": 844,
+      "status": "passed"
+    },
+    {
+      "route": "sr/privacy.html",
+      "width": 1440,
+      "height": 900,
+      "status": "passed"
+    },
+    {
+      "route": "sr/privacy.html",
+      "width": 390,
+      "height": 844,
+      "status": "passed"
+    },
+    {
+      "route": "sr/privacy.html",
+      "width": 320,
+      "height": 844,
+      "status": "passed"
+    },
+    {
+      "route": "/",
+      "mode": "disabled",
+      "status": "passed"
+    },
+    {
+      "route": "sr/",
+      "mode": "disabled",
+      "status": "passed"
+    },
+    {
+      "route": "/",
+      "mode": "blocked",
+      "status": "passed"
+    },
+    {
+      "route": "sr/",
+      "mode": "blocked",
+      "status": "passed"
+    },
+    {
+      "route": "/",
+      "mode": "no-observer",
+      "status": "passed"
+    },
+    {
+      "route": "sr/",
+      "mode": "no-observer",
+      "status": "passed"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,15 @@
+{
+  "source": "E:/Sync/SN Ingenia/sningenia-main",
+  "files": [
+    {
+      "file": "styles.css",
+      "before": "d60b1d125d4e439112ab981b09ba179a6e402208e5e82e845d28dba476117f1e",
+      "after": "027db2b3a567fc0cc20e2fa6b0862199042f7e4cd56b06fe73c967b4466220e5"
+    },
+    {
+      "file": "script.js",
+      "before": "a277fa974e2b7525ad0a32eb506d74b2f379789a56d04239b5a6968bfd3e7e67",
+      "after": "9c0f3715bb8159c2bf8f4c9f70677dc24fdbdbc7d8f67186c8082ff309090ad1"
+    }
+  ]
+}

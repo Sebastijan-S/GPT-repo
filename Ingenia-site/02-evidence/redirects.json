@@ -1,0 +1,331 @@
+[
+  {
+    "url": "http://www.sningenia.com/",
+    "status": 200,
+    "location": null,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "W/\"6aca42e2-6ae3\""
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "HIT"
+      ],
+      "X-GitHub-Request-Id": [
+        "9C80:127479:356609:3CB6D6:6ACBEFB8"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "0"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:13 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6376-VIE"
+      ],
+      "X-Cache": [
+        "MISS"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750074.773808,VS0,VE145"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "5058158eee39d28422be69ebe452954ecfdda908"
+      ],
+      "Content-Type": [
+        "text/html; charset=utf-8"
+      ],
+      "Last-Modified": [
+        "Sat, 10 Oct 2026 13:51:30 GMT"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:30:06 GMT"
+      ]
+    }
+  },
+  {
+    "url": "http://sningenia.com/",
+    "status": 301,
+    "location": [
+      "http://www.sningenia.com/"
+    ],
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Location": [
+        "http://www.sningenia.com/"
+      ],
+      "X-GitHub-Request-Id": [
+        "B17E:1C58B3:34AC64:3BFD18:6ACBEFB9"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "0"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:14 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6327-VIE"
+      ],
+      "X-Cache": [
+        "MISS"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750074.182009,VS0,VE150"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "273fbf453b18c4de0b2ee6fbf4b63a8b326c2d07"
+      ],
+      "Content-Length": [
+        "162"
+      ],
+      "Content-Type": [
+        "text/html"
+      ]
+    }
+  },
+  {
+    "url": "https://sningenia.com/",
+    "status": 301,
+    "location": [
+      "https://www.sningenia.com/"
+    ],
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Location": [
+        "https://www.sningenia.com/"
+      ],
+      "X-GitHub-Request-Id": [
+        "2F2E:2C0BA2:34BF79:3C0F54:6ACBEFBA"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "0"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:14 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6381-VIE"
+      ],
+      "X-Cache": [
+        "MISS"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750075.611927,VS0,VE143"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "8ebde2ebcb827db14747e7a4ed30f084aeac13d9"
+      ],
+      "Content-Length": [
+        "162"
+      ],
+      "Content-Type": [
+        "text/html"
+      ]
+    }
+  },
+  {
+    "url": "https://www.sningenia.com/sr",
+    "status": 301,
+    "location": [
+      "https://www.sningenia.com/sr/"
+    ],
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "x-origin-cache": [
+        "HIT"
+      ],
+      "Location": [
+        "https://www.sningenia.com/sr/"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "6DBE:1FC62F:34DAD1:3C2C33:6ACBEFBB"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "0"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:15 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6383-VIE"
+      ],
+      "X-Cache": [
+        "MISS"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750075.379881,VS0,VE138"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "e8183cc21fdc094f9cd3af52396d9aecf0329377"
+      ],
+      "Content-Length": [
+        "162"
+      ],
+      "Content-Type": [
+        "text/html"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:31:15 GMT"
+      ]
+    }
+  },
+  {
+    "url": "https://www.sningenia.com/audit-missing-20261011",
+    "status": 404,
+    "location": null,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "W/\"6abcf5c5-24a3\""
+      ],
+      "Content-Security-Policy": [
+        "default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "80DC:2C0BA2:34BF8B:3C0F6D:6ACBEFBB"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "0"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:15 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6332-VIE"
+      ],
+      "X-Cache": [
+        "MISS"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750076.692576,VS0,VE163"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "6209f7b717bd40697d29a0b6d3d64ef5890b300f"
+      ],
+      "Content-Type": [
+        "text/html; charset=utf-8"
+      ]
+    }
+  }
+]

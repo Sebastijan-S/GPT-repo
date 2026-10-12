@@ -1,0 +1,154 @@
+[
+  {
+    "stage": "before",
+    "name": "sr-mobile",
+    "runs": [
+      {
+        "performance": 81,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 3785.949925,
+        "tbt": 0,
+        "cls": 0,
+        "runtimeError": null
+      },
+      {
+        "performance": 81,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 3840.4348,
+        "tbt": 0,
+        "cls": 0,
+        "runtimeError": null
+      },
+      {
+        "performance": 78,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 4150.2901,
+        "tbt": 0,
+        "cls": 0,
+        "runtimeError": null
+      }
+    ],
+    "medians": {
+      "performance": 81,
+      "accessibility": 100,
+      "seo": 100,
+      "bestPractices": 96,
+      "lcp": 3840.4348,
+      "tbt": 0,
+      "cls": 0
+    },
+    "ranges": {
+      "performance": [
+        78,
+        81
+      ],
+      "accessibility": [
+        100,
+        100
+      ],
+      "seo": [
+        100,
+        100
+      ],
+      "bestPractices": [
+        96,
+        96
+      ],
+      "lcp": [
+        3785.949925,
+        4150.2901
+      ],
+      "tbt": [
+        0,
+        0
+      ],
+      "cls": [
+        0,
+        0
+      ]
+    },
+    "method": "alternating before/after pairs"
+  },
+  {
+    "stage": "after",
+    "name": "sr-mobile",
+    "runs": [
+      {
+        "performance": 78,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 4113.3844,
+        "tbt": 0,
+        "cls": 0,
+        "runtimeError": null
+      },
+      {
+        "performance": 71,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 4611.955900000001,
+        "tbt": 0,
+        "cls": 0.006718077784602447,
+        "runtimeError": null
+      },
+      {
+        "performance": 80,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 4031.4176,
+        "tbt": 0,
+        "cls": 0,
+        "runtimeError": null
+      }
+    ],
+    "medians": {
+      "performance": 78,
+      "accessibility": 100,
+      "seo": 100,
+      "bestPractices": 96,
+      "lcp": 4113.3844,
+      "tbt": 0,
+      "cls": 0
+    },
+    "ranges": {
+      "performance": [
+        71,
+        80
+      ],
+      "accessibility": [
+        100,
+        100
+      ],
+      "seo": [
+        100,
+        100
+      ],
+      "bestPractices": [
+        96,
+        96
+      ],
+      "lcp": [
+        4031.4176,
+        4611.955900000001
+      ],
+      "tbt": [
+        0,
+        0
+      ],
+      "cls": [
+        0,
+        0.006718077784602447
+      ]
+    },
+    "method": "alternating before/after pairs"
+  }
+]

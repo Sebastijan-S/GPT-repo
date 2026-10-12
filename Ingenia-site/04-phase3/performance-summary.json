@@ -1,0 +1,452 @@
+[
+  {
+    "stage": "before",
+    "name": "en-mobile",
+    "runs": [
+      {
+        "performance": 84,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 3530.6477,
+        "tbt": 0,
+        "cls": 0,
+        "runtimeError": null
+      },
+      {
+        "performance": 83,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 3014.085,
+        "tbt": 0,
+        "cls": 0.0035040488249124526,
+        "runtimeError": null
+      },
+      {
+        "performance": 86,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 3326.3990999999996,
+        "tbt": 0,
+        "cls": 0,
+        "runtimeError": null
+      }
+    ],
+    "medians": {
+      "performance": 84,
+      "accessibility": 100,
+      "seo": 100,
+      "bestPractices": 96,
+      "lcp": 3326.3990999999996,
+      "tbt": 0,
+      "cls": 0
+    },
+    "ranges": {
+      "performance": [
+        83,
+        86
+      ],
+      "accessibility": [
+        100,
+        100
+      ],
+      "seo": [
+        100,
+        100
+      ],
+      "bestPractices": [
+        96,
+        96
+      ],
+      "lcp": [
+        3014.085,
+        3530.6477
+      ],
+      "tbt": [
+        0,
+        0
+      ],
+      "cls": [
+        0,
+        0.0035040488249124526
+      ]
+    }
+  },
+  {
+    "stage": "before",
+    "name": "sr-mobile",
+    "runs": [
+      {
+        "performance": 81,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 3787.839,
+        "tbt": 0,
+        "cls": 0,
+        "runtimeError": null
+      },
+      {
+        "performance": 80,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 3873.9516000000003,
+        "tbt": 0,
+        "cls": 0,
+        "runtimeError": null
+      },
+      {
+        "performance": 82,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 3732.5919151276466,
+        "tbt": 0,
+        "cls": 0,
+        "runtimeError": null
+      }
+    ],
+    "medians": {
+      "performance": 81,
+      "accessibility": 100,
+      "seo": 100,
+      "bestPractices": 96,
+      "lcp": 3787.839,
+      "tbt": 0,
+      "cls": 0
+    },
+    "ranges": {
+      "performance": [
+        80,
+        82
+      ],
+      "accessibility": [
+        100,
+        100
+      ],
+      "seo": [
+        100,
+        100
+      ],
+      "bestPractices": [
+        96,
+        96
+      ],
+      "lcp": [
+        3732.5919151276466,
+        3873.9516000000003
+      ],
+      "tbt": [
+        0,
+        0
+      ],
+      "cls": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "stage": "before",
+    "name": "en-desktop",
+    "runs": [
+      {
+        "performance": 98,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 942.1165,
+        "tbt": 0,
+        "cls": 0.007335627486321037,
+        "runtimeError": null
+      },
+      {
+        "performance": 98,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 943.6937,
+        "tbt": 0,
+        "cls": 0.007335627486321037,
+        "runtimeError": null
+      },
+      {
+        "performance": 97,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 1013.6790000000001,
+        "tbt": 0,
+        "cls": 0.007335627486321037,
+        "runtimeError": null
+      }
+    ],
+    "medians": {
+      "performance": 98,
+      "accessibility": 100,
+      "seo": 100,
+      "bestPractices": 96,
+      "lcp": 943.6937,
+      "tbt": 0,
+      "cls": 0.007335627486321037
+    },
+    "ranges": {
+      "performance": [
+        97,
+        98
+      ],
+      "accessibility": [
+        100,
+        100
+      ],
+      "seo": [
+        100,
+        100
+      ],
+      "bestPractices": [
+        96,
+        96
+      ],
+      "lcp": [
+        942.1165,
+        1013.6790000000001
+      ],
+      "tbt": [
+        0,
+        0
+      ],
+      "cls": [
+        0.007335627486321037,
+        0.007335627486321037
+      ]
+    }
+  },
+  {
+    "stage": "after",
+    "name": "en-mobile",
+    "runs": [
+      {
+        "performance": 87,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 3281.2333,
+        "tbt": 0,
+        "cls": 0.004262233776892665,
+        "runtimeError": null
+      },
+      {
+        "performance": 87,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 3303.7528,
+        "tbt": 0,
+        "cls": 0,
+        "runtimeError": null
+      },
+      {
+        "performance": 87,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 3294.4272,
+        "tbt": 0,
+        "cls": 0,
+        "runtimeError": null
+      }
+    ],
+    "medians": {
+      "performance": 87,
+      "accessibility": 100,
+      "seo": 100,
+      "bestPractices": 96,
+      "lcp": 3294.4272,
+      "tbt": 0,
+      "cls": 0
+    },
+    "ranges": {
+      "performance": [
+        87,
+        87
+      ],
+      "accessibility": [
+        100,
+        100
+      ],
+      "seo": [
+        100,
+        100
+      ],
+      "bestPractices": [
+        96,
+        96
+      ],
+      "lcp": [
+        3281.2333,
+        3303.7528
+      ],
+      "tbt": [
+        0,
+        0
+      ],
+      "cls": [
+        0,
+        0.004262233776892665
+      ]
+    }
+  },
+  {
+    "stage": "after",
+    "name": "sr-mobile",
+    "runs": [
+      {
+        "performance": 78,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 4162.9413,
+        "tbt": 0,
+        "cls": 0,
+        "runtimeError": null
+      },
+      {
+        "performance": 74,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 4233.9745,
+        "tbt": 0,
+        "cls": 0.007313805474951891,
+        "runtimeError": null
+      },
+      {
+        "performance": 84,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 3459.9348,
+        "tbt": 0,
+        "cls": 0.009611856436103738,
+        "runtimeError": null
+      }
+    ],
+    "medians": {
+      "performance": 78,
+      "accessibility": 100,
+      "seo": 100,
+      "bestPractices": 96,
+      "lcp": 4162.9413,
+      "tbt": 0,
+      "cls": 0.007313805474951891
+    },
+    "ranges": {
+      "performance": [
+        74,
+        84
+      ],
+      "accessibility": [
+        100,
+        100
+      ],
+      "seo": [
+        100,
+        100
+      ],
+      "bestPractices": [
+        96,
+        96
+      ],
+      "lcp": [
+        3459.9348,
+        4233.9745
+      ],
+      "tbt": [
+        0,
+        0
+      ],
+      "cls": [
+        0,
+        0.009611856436103738
+      ]
+    }
+  },
+  {
+    "stage": "after",
+    "name": "en-desktop",
+    "runs": [
+      {
+        "performance": 85,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 1706.8109000000004,
+        "tbt": 0,
+        "cls": 0.008171264672446556,
+        "runtimeError": null
+      },
+      {
+        "performance": 98,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 931.7463,
+        "tbt": 0,
+        "cls": 0.00647890023915241,
+        "runtimeError": null
+      },
+      {
+        "performance": 100,
+        "accessibility": 100,
+        "seo": 100,
+        "bestPractices": 96,
+        "lcp": 569.4793000000001,
+        "tbt": 0,
+        "cls": 0.008171264672446556,
+        "runtimeError": null
+      }
+    ],
+    "medians": {
+      "performance": 98,
+      "accessibility": 100,
+      "seo": 100,
+      "bestPractices": 96,
+      "lcp": 931.7463,
+      "tbt": 0,
+      "cls": 0.008171264672446556
+    },
+    "ranges": {
+      "performance": [
+        85,
+        100
+      ],
+      "accessibility": [
+        100,
+        100
+      ],
+      "seo": [
+        100,
+        100
+      ],
+      "bestPractices": [
+        96,
+        96
+      ],
+      "lcp": [
+        569.4793000000001,
+        1706.8109000000004
+      ],
+      "tbt": [
+        0,
+        0
+      ],
+      "cls": [
+        0.00647890023915241,
+        0.008171264672446556
+      ]
+    }
+  }
+]

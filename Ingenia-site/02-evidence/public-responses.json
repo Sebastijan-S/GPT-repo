@@ -1,0 +1,1592 @@
+[
+  {
+    "url": "https://www.sningenia.com/",
+    "status": 200,
+    "bytes": 27363,
+    "elapsedMs": 305,
+    "sha256": "113CEFF7B09DE776B87A2C900C88353F93EB21E4ACEEFC67C192C1506C0FCAC6",
+    "localSha256": "113CEFF7B09DE776B87A2C900C88353F93EB21E4ACEEFC67C192C1506C0FCAC6",
+    "equal": true,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "W/\"6aca42e2-6ae3\""
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "CA0A:1C58B3:34490D:3B8FD9:6ACBEBB9"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:05 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "Age": [
+        "59"
+      ],
+      "X-Served-By": [
+        "cache-vie6328-VIE"
+      ],
+      "X-Cache": [
+        "HIT"
+      ],
+      "X-Cache-Hits": [
+        "1"
+      ],
+      "X-Timer": [
+        "S1791750066.990088,VS0,VE2"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "cf72479001133801254952b5fbcb8e729440056a"
+      ],
+      "Content-Type": [
+        "text/html; charset=utf-8"
+      ],
+      "Last-Modified": [
+        "Sat, 10 Oct 2026 13:51:30 GMT"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:14:10 GMT"
+      ]
+    }
+  },
+  {
+    "url": "https://www.sningenia.com/index.html",
+    "status": 200,
+    "bytes": 27363,
+    "elapsedMs": 305,
+    "sha256": "113CEFF7B09DE776B87A2C900C88353F93EB21E4ACEEFC67C192C1506C0FCAC6",
+    "localSha256": "113CEFF7B09DE776B87A2C900C88353F93EB21E4ACEEFC67C192C1506C0FCAC6",
+    "equal": true,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "W/\"6aca42e2-6ae3\""
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "BDBC:127479:350FDF:3C57DF:6ACBEC2A"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "0"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:06 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6372-VIE"
+      ],
+      "X-Cache": [
+        "HIT"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750066.236194,VS0,VE143"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "93385e68e0ac8093ddc5d645c3849dad91a6c218"
+      ],
+      "Content-Type": [
+        "text/html; charset=utf-8"
+      ],
+      "Last-Modified": [
+        "Sat, 10 Oct 2026 13:51:30 GMT"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:16:03 GMT"
+      ]
+    }
+  },
+  {
+    "url": "https://www.sningenia.com/sr/",
+    "status": 200,
+    "bytes": 24938,
+    "elapsedMs": 371,
+    "sha256": "3DDF18F6ACAA2B1D1F1D6D1712458C7006986315F1ADBCC03C73D81E36FD05C5",
+    "localSha256": "96D3C9BBDA0561D9E8CF1F1F71EED98AB2C44BE7F1A267DF6EC79089EB26DFB8",
+    "equal": false,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "W/\"6aca42e2-616a\""
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "E48E:219813:34F939:3C4B4D:6ACBEFB2"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "0"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:06 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6378-VIE"
+      ],
+      "X-Cache": [
+        "MISS"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750067.605660,VS0,VE149"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "c25e016c2ce4a2500b291edf307546a1124e81ee"
+      ],
+      "Content-Type": [
+        "text/html; charset=utf-8"
+      ],
+      "Last-Modified": [
+        "Sat, 10 Oct 2026 13:51:30 GMT"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:31:06 GMT"
+      ]
+    }
+  },
+  {
+    "url": "https://www.sningenia.com/sr/index.html",
+    "status": 200,
+    "bytes": 24938,
+    "elapsedMs": 585,
+    "sha256": "3DDF18F6ACAA2B1D1F1D6D1712458C7006986315F1ADBCC03C73D81E36FD05C5",
+    "localSha256": "96D3C9BBDA0561D9E8CF1F1F71EED98AB2C44BE7F1A267DF6EC79089EB26DFB8",
+    "equal": false,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "W/\"6aca42e2-616a\""
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "E832:1BF7D3:34A2E2:3BECB5:6ACBEBDD"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "0"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:07 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6328-VIE"
+      ],
+      "X-Cache": [
+        "HIT"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750067.268894,VS0,VE146"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "f32d4329eaf8b5a723535953f49fdd9c834c81c6"
+      ],
+      "Content-Type": [
+        "text/html; charset=utf-8"
+      ],
+      "Last-Modified": [
+        "Sat, 10 Oct 2026 13:51:30 GMT"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:14:46 GMT"
+      ]
+    }
+  },
+  {
+    "url": "https://www.sningenia.com/privacy.html",
+    "status": 200,
+    "bytes": 5085,
+    "elapsedMs": 295,
+    "sha256": "F8DF2DD1826539260B2AA4F73BE81346B12FCB4FDE79168D66886B1DEE245416",
+    "localSha256": "D8ED651E82284EE5F07033E3519CC6377FD05FBFC7E2656A5AE8E8F86E5C7944",
+    "equal": false,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "W/\"6aca42e2-13dd\""
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "44B8:1BF7D3:34AC25:3BF6C7:6ACBEC33"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "0"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:07 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6381-VIE"
+      ],
+      "X-Cache": [
+        "HIT"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750068.576199,VS0,VE151"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "de54dd22ede49a964d12e4bc8d3e862ec6bce91d"
+      ],
+      "Content-Type": [
+        "text/html; charset=utf-8"
+      ],
+      "Last-Modified": [
+        "Sat, 10 Oct 2026 13:51:30 GMT"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:16:12 GMT"
+      ]
+    }
+  },
+  {
+    "url": "https://www.sningenia.com/sr/privacy.html",
+    "status": 200,
+    "bytes": 5246,
+    "elapsedMs": 309,
+    "sha256": "8A470C51A01F83AE702D3E18B04806A22AA636287FA4BF9370B37EF24B6C42E4",
+    "localSha256": "ED458D88C1717D1D8C0E06D27AD14C9CBA7EC905010713323C1B4D981C19D648",
+    "equal": false,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "W/\"6aca42e2-147e\""
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "6310:1FC62F:347B8D:3BC3C7:6ACBEC04"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "0"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:08 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6337-VIE"
+      ],
+      "X-Cache": [
+        "HIT"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750068.867663,VS0,VE160"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "8e5e0a784295df04367546e66ad224ac13758cff"
+      ],
+      "Content-Type": [
+        "text/html; charset=utf-8"
+      ],
+      "Last-Modified": [
+        "Sat, 10 Oct 2026 13:51:30 GMT"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:15:25 GMT"
+      ]
+    }
+  },
+  {
+    "url": "https://www.sningenia.com/robots.txt",
+    "status": 200,
+    "bytes": 134,
+    "elapsedMs": 325,
+    "sha256": "A14FD05972BAF098C5007B334CA7B2FDC59CC6619B2EA1F81B2083E0D0B33E90",
+    "localSha256": "76DB013E6342CAF2E0722676C96072AA12E442670337D0C4B9513491F24B4EEC",
+    "equal": false,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "\"6aca42e2-86\""
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "FFE8:1D1B30:34D1F0:3C1BED:6ACBEC13"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "0"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:08 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6332-VIE"
+      ],
+      "X-Cache": [
+        "HIT"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750068.195776,VS0,VE152"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "446d5baa50b7a9d09726a189f5133f10bd207a34"
+      ],
+      "Content-Length": [
+        "134"
+      ],
+      "Content-Type": [
+        "text/plain; charset=utf-8"
+      ],
+      "Last-Modified": [
+        "Sat, 10 Oct 2026 13:51:30 GMT"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:15:41 GMT"
+      ]
+    }
+  },
+  {
+    "url": "https://www.sningenia.com/sitemap.xml",
+    "status": 200,
+    "bytes": 1508,
+    "elapsedMs": 421,
+    "sha256": "3135622767C4FF1253562EAF60FE501757AFB566E340E6C4AFF63A83259E1A4F",
+    "localSha256": "8A3DEB45101177C183A89BA9D90C945DFA9B5BA9F92300E2EC77C44082C254B6",
+    "equal": false,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "W/\"6aca42e2-5e4\""
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "8FBC:1C58B3:34507D:3B983A:6ACBEC15"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "0"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:08 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6383-VIE"
+      ],
+      "X-Cache": [
+        "HIT"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750069.575354,VS0,VE140"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "e486d700ee69779f02f5a3ca285f4bb833663ff2"
+      ],
+      "Content-Type": [
+        "application/xml"
+      ],
+      "Last-Modified": [
+        "Sat, 10 Oct 2026 13:51:30 GMT"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:15:42 GMT"
+      ]
+    }
+  },
+  {
+    "url": "https://www.sningenia.com/script.js",
+    "status": 200,
+    "bytes": 10053,
+    "elapsedMs": 155,
+    "sha256": "321ACFBFCAD8C8AAD0C1431CD76A542D31867B29D85C492AFF3537AAC9D8ACAD",
+    "localSha256": "321ACFBFCAD8C8AAD0C1431CD76A542D31867B29D85C492AFF3537AAC9D8ACAD",
+    "equal": true,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "W/\"6aca42e2-2745\""
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "E832:1BF7D3:349F0E:3BE885:6ACBEBBA"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "62"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:08 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6381-VIE"
+      ],
+      "X-Cache": [
+        "HIT"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750069.944189,VS0,VE3"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "178f1d5a9fe8fceb9e61e0167519886da5dba8ff"
+      ],
+      "Content-Type": [
+        "application/javascript; charset=utf-8"
+      ],
+      "Last-Modified": [
+        "Sat, 10 Oct 2026 13:51:30 GMT"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:14:10 GMT"
+      ]
+    }
+  },
+  {
+    "url": "https://www.sningenia.com/analytics.js",
+    "status": 200,
+    "bytes": 3750,
+    "elapsedMs": 174,
+    "sha256": "1ADF92C49FFDEA0F81737BCF630CB985C34E6A08E6B6C5FC08DFB4197E5D423E",
+    "localSha256": "547CE8C4C30A079A6648EE0CF2509B1F84FA52603F2F7F2BEB96761859AF5AD5",
+    "equal": false,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "W/\"6aca42e2-ea6\""
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "EBA8:1FC62F:3473D4:3BBB61:6ACBEBBA"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "62"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:09 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6361-VIE"
+      ],
+      "X-Cache": [
+        "HIT"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750069.114243,VS0,VE2"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "2cd083baae28c0ed96dcb6292dc03e5473a09964"
+      ],
+      "Content-Type": [
+        "application/javascript; charset=utf-8"
+      ],
+      "Last-Modified": [
+        "Sat, 10 Oct 2026 13:51:30 GMT"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:14:10 GMT"
+      ]
+    }
+  },
+  {
+    "url": "https://www.sningenia.com/styles.css",
+    "status": 200,
+    "bytes": 27224,
+    "elapsedMs": 224,
+    "sha256": "D9CC1D1B518808913D0008A2D775578EC589199405484B6F8EE8D4958D49C4F0",
+    "localSha256": "61DDC3FFA7C093C13330EBCFA09651D70DF2DA74BE04374B6368E6C94B5FF145",
+    "equal": false,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "W/\"6aca42e2-6a58\""
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "6204:1FC62F:3473D4:3BBB62:6ACBEBBA"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "62"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:09 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6325-VIE"
+      ],
+      "X-Cache": [
+        "HIT"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750069.313827,VS0,VE24"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "3070530eb90806084217e84e8856356bdbd52282"
+      ],
+      "Content-Type": [
+        "text/css; charset=utf-8"
+      ],
+      "Last-Modified": [
+        "Sat, 10 Oct 2026 13:51:30 GMT"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:14:10 GMT"
+      ]
+    }
+  },
+  {
+    "url": "https://www.sningenia.com/images/logo-header.svg",
+    "status": 200,
+    "bytes": 317871,
+    "elapsedMs": 303,
+    "sha256": "1688E686973B72B6AB2518ED6B56B585310E78456C0BD4ECC9912F7B4EC1B4F1",
+    "localSha256": "1688E686973B72B6AB2518ED6B56B585310E78456C0BD4ECC9912F7B4EC1B4F1",
+    "equal": true,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "W/\"6aca42e2-4d9af\""
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "912A:36B37D:3541C7:3C8ABC:6ACBEBBA"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "62"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:09 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6338-VIE"
+      ],
+      "X-Cache": [
+        "HIT"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750070.528978,VS0,VE1"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "a9a8f5427c58cb219d7a3eebdd7328b689f7ecda"
+      ],
+      "Content-Type": [
+        "image/svg+xml"
+      ],
+      "Last-Modified": [
+        "Sat, 10 Oct 2026 13:51:30 GMT"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:14:10 GMT"
+      ]
+    }
+  },
+  {
+    "url": "https://www.sningenia.com/images/thumbnail1.webp",
+    "status": 200,
+    "bytes": 61424,
+    "elapsedMs": 197,
+    "sha256": "34983C24D21D55BC5DF265898F0B0E8780E0D8524037DD91D15C434F48E76B79",
+    "localSha256": "34983C24D21D55BC5DF265898F0B0E8780E0D8524037DD91D15C434F48E76B79",
+    "equal": true,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "\"6aca42e2-eff0\""
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "7F56:130F5F:34967D:3BE9DD:6ACBEBBA"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "62"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:09 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6368-VIE"
+      ],
+      "X-Cache": [
+        "HIT"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750070.987551,VS0,VE1"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "f98d54c3498d027fa4677fd39fe7d283fe3c2a35"
+      ],
+      "Content-Length": [
+        "61424"
+      ],
+      "Content-Type": [
+        "image/webp"
+      ],
+      "Last-Modified": [
+        "Sat, 10 Oct 2026 13:51:30 GMT"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:14:11 GMT"
+      ]
+    }
+  },
+  {
+    "url": "https://www.sningenia.com/images/thumbnail2.webp",
+    "status": 200,
+    "bytes": 95712,
+    "elapsedMs": 222,
+    "sha256": "69ABB20A98D9C2D448E3532A1B83EA5B7375E1CC302F3DF085A984DE193918CF",
+    "localSha256": "69ABB20A98D9C2D448E3532A1B83EA5B7375E1CC302F3DF085A984DE193918CF",
+    "equal": true,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "\"6aca42e2-175e0\""
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "3004:127479:3504B2:3C4B93:6ACBEBBB"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "63"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:10 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6324-VIE"
+      ],
+      "X-Cache": [
+        "HIT"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750070.218122,VS0,VE2"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "a25e8263b990ec02261e62a35392b5e206fe8712"
+      ],
+      "Content-Length": [
+        "95712"
+      ],
+      "Content-Type": [
+        "image/webp"
+      ],
+      "Last-Modified": [
+        "Sat, 10 Oct 2026 13:51:30 GMT"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:14:11 GMT"
+      ]
+    }
+  },
+  {
+    "url": "https://www.sningenia.com/images/thumbnail3.webp",
+    "status": 200,
+    "bytes": 53840,
+    "elapsedMs": 352,
+    "sha256": "48A4C90F56C1858B49B5086B3232F3EE23EAA471812C09D2D010A45EF8BA831A",
+    "localSha256": "48A4C90F56C1858B49B5086B3232F3EE23EAA471812C09D2D010A45EF8BA831A",
+    "equal": true,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "x-origin-cache": [
+        "HIT"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "\"6aca42e2-d250\""
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "81BC:09F2:154185:183C77:6ACBEBC3"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "0"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:10 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6376-VIE"
+      ],
+      "X-Cache": [
+        "HIT"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750070.475857,VS0,VE160"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "64cf84af9479aa0736c22b4e88dd887efc3c4352"
+      ],
+      "Content-Length": [
+        "53840"
+      ],
+      "Content-Type": [
+        "image/webp"
+      ],
+      "Last-Modified": [
+        "Sat, 10 Oct 2026 13:51:30 GMT"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:14:20 GMT"
+      ]
+    }
+  },
+  {
+    "url": "https://www.sningenia.com/images/thumbnail4.webp",
+    "status": 200,
+    "bytes": 61836,
+    "elapsedMs": 553,
+    "sha256": "DB430878422DA1B9671A47865901D0971CF42E0DF2AA77A10C761CC1F4FA6A1C",
+    "localSha256": "DB430878422DA1B9671A47865901D0971CF42E0DF2AA77A10C761CC1F4FA6A1C",
+    "equal": true,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "\"6aca42e2-f18c\""
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "A778:127479:350569:3C4C59:6ACBEBC2"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "0"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:10 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6326-VIE"
+      ],
+      "X-Cache": [
+        "HIT"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750071.847430,VS0,VE145"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "ebb948929c03bd7760aadc5017cd3e8e8d4382dd"
+      ],
+      "Content-Length": [
+        "61836"
+      ],
+      "Content-Type": [
+        "image/webp"
+      ],
+      "Last-Modified": [
+        "Sat, 10 Oct 2026 13:51:30 GMT"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:14:20 GMT"
+      ]
+    }
+  },
+  {
+    "url": "https://www.sningenia.com/images/profilepicture1.webp",
+    "status": 200,
+    "bytes": 27616,
+    "elapsedMs": 347,
+    "sha256": "F6BFF40EF27E573F0D218EB08DBA13231C0AF1C87ABE1F1D8C12AD6F9F0F63F2",
+    "localSha256": "F6BFF40EF27E573F0D218EB08DBA13231C0AF1C87ABE1F1D8C12AD6F9F0F63F2",
+    "equal": true,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "\"6aca42e2-6be0\""
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "A0A8:1BF7D3:34A69D:3BF0BA:6ACBEBFD"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "0"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:11 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6367-VIE"
+      ],
+      "X-Cache": [
+        "HIT"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750071.476689,VS0,VE135"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "ca6ba482bca987a672ee0453c54bbde9b6a33fa9"
+      ],
+      "Content-Length": [
+        "27616"
+      ],
+      "Content-Type": [
+        "image/webp"
+      ],
+      "Last-Modified": [
+        "Sat, 10 Oct 2026 13:51:30 GMT"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:15:17 GMT"
+      ]
+    }
+  },
+  {
+    "url": "https://www.sningenia.com/images/case1.webp",
+    "status": 200,
+    "bytes": 72006,
+    "elapsedMs": 497,
+    "sha256": "059519AECA33D940BB2717AE7FFAB8B007D56E072BD5B8CE53CCBC61A25C6759",
+    "localSha256": "059519AECA33D940BB2717AE7FFAB8B007D56E072BD5B8CE53CCBC61A25C6759",
+    "equal": true,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "\"6aca42e2-11946\""
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "549A:3EFD95:341C1D:3B6D6F:6ACBEFB7"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "0"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:11 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6323-VIE"
+      ],
+      "X-Cache": [
+        "MISS"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750072.825039,VS0,VE149"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "3989a144a9a25f7dc352136914e2df2f63816e13"
+      ],
+      "Content-Length": [
+        "72006"
+      ],
+      "Content-Type": [
+        "image/webp"
+      ],
+      "Last-Modified": [
+        "Sat, 10 Oct 2026 13:51:30 GMT"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:31:11 GMT"
+      ]
+    }
+  },
+  {
+    "url": "https://www.sningenia.com/images/case2.webp",
+    "status": 200,
+    "bytes": 71154,
+    "elapsedMs": 410,
+    "sha256": "3D26FDC36AF32126C24245516EA6E5814BEF803300BE276AD8B4054E4A1428B4",
+    "localSha256": "3D26FDC36AF32126C24245516EA6E5814BEF803300BE276AD8B4054E4A1428B4",
+    "equal": true,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "\"6aca42e2-115f2\""
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "E260:2D163F:349440:3BDBAE:6ACBEBC4"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "0"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:12 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6333-VIE"
+      ],
+      "X-Cache": [
+        "HIT"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750072.392646,VS0,VE153"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "369f8a058265448d5fca3f7af0b95e8364260574"
+      ],
+      "Content-Length": [
+        "71154"
+      ],
+      "Content-Type": [
+        "image/webp"
+      ],
+      "Last-Modified": [
+        "Sat, 10 Oct 2026 13:51:30 GMT"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:14:21 GMT"
+      ]
+    }
+  },
+  {
+    "url": "https://www.sningenia.com/images/case3.webp",
+    "status": 200,
+    "bytes": 55706,
+    "elapsedMs": 454,
+    "sha256": "F332964D2F63E4806A5626A8E38FEB95B66B4F2C211F8A0BA9375B6E6A40740F",
+    "localSha256": "F332964D2F63E4806A5626A8E38FEB95B66B4F2C211F8A0BA9375B6E6A40740F",
+    "equal": true,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "\"6aca42e2-d99a\""
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "B03A:2BBECC:34D174:3C1A52:6ACBEBEF"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "0"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:13 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6383-VIE"
+      ],
+      "X-Cache": [
+        "HIT"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750073.871110,VS0,VE142"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "094c2884fa8631cb790249717310c5761812f621"
+      ],
+      "Content-Length": [
+        "55706"
+      ],
+      "Content-Type": [
+        "image/webp"
+      ],
+      "Last-Modified": [
+        "Sat, 10 Oct 2026 13:51:30 GMT"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:15:03 GMT"
+      ]
+    }
+  },
+  {
+    "url": "https://www.sningenia.com/images/case4.webp",
+    "status": 200,
+    "bytes": 40236,
+    "elapsedMs": 394,
+    "sha256": "6EE145C4B0D4A613D3D03877E4B272D6C8F18166C3C2787F85BD148B9F7C5266",
+    "localSha256": "6EE145C4B0D4A613D3D03877E4B272D6C8F18166C3C2787F85BD148B9F7C5266",
+    "equal": true,
+    "headers": {
+      "Connection": [
+        "keep-alive"
+      ],
+      "Server": [
+        "GitHub.com"
+      ],
+      "x-origin-cache": [
+        "HIT"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "ETag": [
+        "\"6aca42e2-9d2c\""
+      ],
+      "Cache-Control": [
+        "max-age=600"
+      ],
+      "x-proxy-cache": [
+        "MISS"
+      ],
+      "X-GitHub-Request-Id": [
+        "8B20:127479:356603:3CB6CF:6ACBEFB9"
+      ],
+      "x-github-edge-region": [
+        "switzerlandnorth"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Age": [
+        "0"
+      ],
+      "Date": [
+        "Sun, 11 Oct 2026 20:21:13 GMT"
+      ],
+      "Via": [
+        "1.1 varnish"
+      ],
+      "X-Served-By": [
+        "cache-vie6330-VIE"
+      ],
+      "X-Cache": [
+        "MISS"
+      ],
+      "X-Cache-Hits": [
+        "0"
+      ],
+      "X-Timer": [
+        "S1791750073.376564,VS0,VE141"
+      ],
+      "Vary": [
+        "Accept-Encoding"
+      ],
+      "X-Fastly-Request-ID": [
+        "fa466b90b532ec8e37ad40b50663fd09cc81e864"
+      ],
+      "Content-Length": [
+        "40236"
+      ],
+      "Content-Type": [
+        "image/webp"
+      ],
+      "Last-Modified": [
+        "Sat, 10 Oct 2026 13:51:30 GMT"
+      ],
+      "Expires": [
+        "Sun, 11 Oct 2026 20:31:13 GMT"
+      ]
+    }
+  }
+]

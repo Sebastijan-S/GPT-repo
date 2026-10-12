@@ -1,0 +1,55 @@
+{
+  "head": "963c29a9077bbcf02f6d410aaa384c2c86261362",
+  "files": [
+    {
+      "file": "index.html",
+      "before": "113ceff7b09de776b87a2c900c88353f93eb21e4aceefc67c192c1506c0fcac6",
+      "after": "210e465049c326c679bc09f9ea641fbfbd6d9bf0ddbe86d0d319e56d810fc42e"
+    },
+    {
+      "file": "sr/index.html",
+      "before": "96d3c9bbda0561d9e8cf1f1f71eed98ab2c44be7f1a267df6ec79089eb26dfb8",
+      "after": "11bdaed2dd049fc4d6bc4ed7d4aea50615248144bc4ecdce5ede1996ad84cf52"
+    },
+    {
+      "file": "privacy.html",
+      "before": "d8ed651e82284ee5f07033e3519cc6377fd05fbfc7e2656a5ae8e8f86e5c7944",
+      "after": "df1895dd24b6015472c1f9165bfb3d1da261f9c9e93390519a898df7cabd232a"
+    },
+    {
+      "file": "sr/privacy.html",
+      "before": "ed458d88c1717d1d8c0e06d27ad14c9cba7ec905010713323c1b4d981c19d648",
+      "after": "4e800bfa6321820866ac76333e7f60c9b4bc61bc3add20bae6d30c266cc2f2db"
+    },
+    {
+      "file": "script.js",
+      "before": "321acfbfcad8c8aad0c1431cd76a542d31867b29d85c492aff3537aac9d8acad",
+      "after": "a277fa974e2b7525ad0a32eb506d74b2f379789a56d04239b5a6968bfd3e7e67"
+    },
+    {
+      "file": "styles.css",
+      "before": "61ddc3ffa7c093c13330ebcfa09651d70df2da74be04374b6368e6c94b5ff145",
+      "after": "d60b1d125d4e439112ab981b09ba179a6e402208e5e82e845d28dba476117f1e"
+    },
+    {
+      "file": "analytics.js",
+      "before": "547ce8c4c30a079a6648ee0cf2509b1f84fa52603f2f7f2beb96761859af5ad5",
+      "after": "16ab3322096e8fa910b3ff67afa072fdf6afc6e14f2837adfe0e8dda3bbf76fc"
+    },
+    {
+      "file": "robots.txt",
+      "before": "76db013e6342caf2e0722676c96072aa12e442670337d0c4b9513491f24b4eec",
+      "after": "2761e6996d93dd14f5c4b056ef261cfae18ad0321f417aeecda72e53a1fdd70f"
+    },
+    {
+      "file": "sitemap.xml",
+      "before": "8a3deb45101177c183a89ba9d90c945dfa9b5ba9f92300e2ec77c44082c254b6",
+      "after": "cf51d12895ca86533e8efa238290904e7fded70c351744de3e7a271120ca7f12"
+    }
+  ],
+  "newAsset": {
+    "file": "images/logo-header.webp",
+    "bytes": 10172,
+    "sha256": "5e8f6f32c2c1a6cd22cf8754bdb0586924f788b270f2fd079d4725cb9729a8a5"
+  }
+}

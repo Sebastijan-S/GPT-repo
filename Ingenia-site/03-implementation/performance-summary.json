@@ -1,0 +1,155 @@
+[
+  {
+    "name": "en-mobile",
+    "runs": [
+      {
+        "performance": 85,
+        "accessibility": 100,
+        "bestPractices": 96,
+        "seo": 100,
+        "fcp": 3106.6512,
+        "lcp": 3406.6512000000002,
+        "tbt": 0,
+        "cls": 0,
+        "labelName": 1,
+        "runtimeError": null
+      },
+      {
+        "performance": 85,
+        "accessibility": 100,
+        "bestPractices": 96,
+        "seo": 100,
+        "fcp": 3150.9142,
+        "lcp": 3450.9141999999997,
+        "tbt": 0,
+        "cls": 0,
+        "labelName": 1,
+        "runtimeError": null
+      },
+      {
+        "performance": 85,
+        "accessibility": 100,
+        "bestPractices": 96,
+        "seo": 100,
+        "fcp": 3078.6913,
+        "lcp": 3378.6913000000004,
+        "tbt": 0,
+        "cls": 0,
+        "labelName": 1,
+        "runtimeError": null
+      }
+    ],
+    "medians": {
+      "performance": 85,
+      "accessibility": 100,
+      "bestPractices": 96,
+      "seo": 100,
+      "fcp": 3106.6512,
+      "lcp": 3406.6512000000002,
+      "tbt": 0,
+      "cls": 0
+    }
+  },
+  {
+    "name": "en-desktop",
+    "runs": [
+      {
+        "performance": 96,
+        "accessibility": 100,
+        "bestPractices": 96,
+        "seo": 100,
+        "fcp": 1078.9465,
+        "lcp": 1078.9465,
+        "tbt": 0,
+        "cls": 0.007335627486321037,
+        "labelName": 1,
+        "runtimeError": null
+      },
+      {
+        "performance": 97,
+        "accessibility": 100,
+        "bestPractices": 96,
+        "seo": 100,
+        "fcp": 999.0014000000001,
+        "lcp": 999.0014000000001,
+        "tbt": 0,
+        "cls": 0.0086824772733581,
+        "labelName": 1,
+        "runtimeError": null
+      },
+      {
+        "performance": 95,
+        "accessibility": 100,
+        "bestPractices": 96,
+        "seo": 100,
+        "fcp": 1146.118,
+        "lcp": 1146.118,
+        "tbt": 0,
+        "cls": 0.008400808083249991,
+        "labelName": 1,
+        "runtimeError": null
+      }
+    ],
+    "medians": {
+      "performance": 96,
+      "accessibility": 100,
+      "bestPractices": 96,
+      "seo": 100,
+      "fcp": 1078.9465,
+      "lcp": 1078.9465,
+      "tbt": 0,
+      "cls": 0.008400808083249991
+    }
+  },
+  {
+    "name": "sr-mobile",
+    "runs": [
+      {
+        "performance": 81,
+        "accessibility": 100,
+        "bestPractices": 96,
+        "seo": 100,
+        "fcp": 3504.8298999999997,
+        "lcp": 3804.829899999999,
+        "tbt": 0,
+        "cls": 0,
+        "labelName": 1,
+        "runtimeError": null
+      },
+      {
+        "performance": 80,
+        "accessibility": 100,
+        "bestPractices": 96,
+        "seo": 100,
+        "fcp": 3632.9673000000003,
+        "lcp": 3857.9673000000003,
+        "tbt": 0,
+        "cls": 0,
+        "labelName": 1,
+        "runtimeError": null
+      },
+      {
+        "performance": 80,
+        "accessibility": 100,
+        "bestPractices": 96,
+        "seo": 100,
+        "fcp": 3565.4731,
+        "lcp": 3865.4731,
+        "tbt": 0,
+        "cls": 0,
+        "labelName": 1,
+        "runtimeError": null
+      }
+    ],
+    "medians": {
+      "performance": 80,
+      "accessibility": 100,
+      "bestPractices": 96,
+      "seo": 100,
+      "fcp": 3565.4731,
+      "lcp": 3857.9673000000003,
+      "tbt": 0,
+      "cls": 0
+    }
+  }
+]

@@ -1,0 +1,1787 @@
+diff --git a/index.html b/index.html
+--- a/index.html
++++ b/index.html
+@@ -3,35 +3,35 @@
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-<title>SNIngenia | Web Design &amp; Development Studio in Serbia (Webflow, Framer)</title>
+-<meta name="description" content="Web design and development in Serbia for small businesses and large companies. Webflow, Framer and AI integration. Reply within 1 hour on business days.">
+-<!-- TODO: Replace https://example.com with the production domain before launch. -->
+-<link rel="canonical" href="https://example.com/">
+-<link rel="alternate" hreflang="en" href="https://example.com/">
+-<link rel="alternate" hreflang="sr" href="https://example.com/sr/">
+-<link rel="alternate" hreflang="x-default" href="https://example.com/">
++<title>SNIngenia | Web Design &amp; Development Studio in Serbia</title>
++<meta name="description" content="SNIngenia designs and builds new websites and redesigns existing ones, in English and Serbian. Arrange a 10-minute introductory call by email.">
++<link rel="canonical" href="https://www.sningenia.com/">
++<link rel="alternate" hreflang="en" href="https://www.sningenia.com/">
++<link rel="alternate" hreflang="sr" href="https://www.sningenia.com/sr/">
++<link rel="alternate" hreflang="x-default" href="https://www.sningenia.com/">
+ <meta property="og:type" content="website">
+ <meta property="og:locale" content="en_US">
+ <meta property="og:title" content="SNIngenia | Web Design &amp; Development Studio in Serbia">
+-<meta property="og:description" content="Web design and development in Serbia for small businesses and large companies. Webflow, Framer and practical AI integration.">
+-<meta property="og:url" content="https://example.com/">
+-<meta property="og:image" content="https://example.com/images/thumbnail1.webp">
++<meta property="og:description" content="New websites and website redesigns, in English and Serbian. Arrange a 10-minute introductory call by email.">
++<meta property="og:url" content="https://www.sningenia.com/">
++<meta property="og:image" content="https://www.sningenia.com/images/thumbnail1.webp">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="twitter:title" content="SNIngenia | Web Design &amp; Development Studio in Serbia">
+-<meta name="twitter:description" content="Web design and development in Serbia for small businesses and large companies. Webflow, Framer and practical AI integration.">
+-<meta name="twitter:image" content="https://example.com/images/thumbnail1.webp">
++<meta name="twitter:description" content="New websites and website redesigns, in English and Serbian. Arrange a 10-minute introductory call by email.">
++<meta name="twitter:image" content="https://www.sningenia.com/images/thumbnail1.webp">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
++<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
++<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="styles.css">
+ <script type="application/ld+json">
+ {
+   "@context": "https://schema.org",
+   "@type": "ProfessionalService",
+   "name": "SNIngenia",
+-  "url": "https://example.com/",
++  "url": "https://www.sningenia.com/",
+   "areaServed": "Serbia",
+   "email": "sningenia@gmail.com",
+-  "sameAs": ["https://www.instagram.com/sningenia/", "https://www.linkedin.com/company/106868611/admin/dashboard/"]
++  "sameAs": ["https://www.instagram.com/sningenia/"]
+ }
+ </script>
+ </head>
+@@ -41,7 +41,7 @@
+ <!-- NAV -->
+ <nav aria-label="Main navigation">
+   <a class="nav-logo" href="#home" aria-label="SNIngenia home">
+-    <img src="images/logo-header.svg" alt="SNIngenia" width="1536" height="1024" />
++    <img src="images/logo-header.webp" alt="SNIngenia" width="1536" height="326" />
+   </a>
+   <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-controls="mobileNav" aria-expanded="false">
+     <span></span>
+@@ -51,10 +51,10 @@
+   <ul class="nav-links">
+     <li><a href="#work">Work</a></li>
+     <li><a href="#about">About</a></li>
+-    <li><a href="#team">Team</a></li>
++
+     <li><a href="#faq">FAQ</a></li>
+     <li class="language-switcher"><a href="./index.html" lang="en" aria-current="page">EN</a><span aria-hidden="true">|</span><a href="sr/index.html" lang="sr">SR</a></li>
+-    <li><a class="btn-primary nav-cta" href="#contact" data-cta="nav-desktop">Start a project</a></li>
++    <li><a class="btn-primary nav-cta" href="#contact" data-cta="nav-desktop">Arrange a 10-minute introductory call</a></li>
+   </ul>
+ </nav>
+ <div class="mobile-nav" id="mobileNav" aria-hidden="true" inert>
+@@ -62,178 +62,95 @@
+   <ul class="mobile-nav-links">
+     <li><a href="#work">Work</a></li>
+     <li><a href="#about">About</a></li>
+-    <li><a href="#team">Team</a></li>
++
+     <li><a href="#faq">FAQ</a></li>
+     <li class="language-switcher"><a href="./index.html" lang="en" aria-current="page">EN</a><span aria-hidden="true">|</span><a href="sr/index.html" lang="sr">SR</a></li>
+-    <li><a class="btn-primary" href="#contact" data-cta="nav-mobile">Start a project</a></li>
++    <li><a class="btn-primary" href="#contact" data-cta="nav-mobile">Arrange a 10-minute introductory call</a></li>
+   </ul>
+ </div>
+ 
+ <div class="mobile-cta" id="mobileCta" aria-hidden="true" inert>
+-  <a class="btn-primary" href="#contact" data-cta="sticky">Start a project</a>
++  <a class="btn-primary" href="#contact" data-cta="sticky">Arrange a 10-minute introductory call</a>
+ </div>
+ 
++<div class="fallback-navigation"><nav class="fallback-nav" aria-label="Navigation without JavaScript"><a href="#work">Work</a><a href="#about">About</a><a href="#faq">FAQ</a><a href="#contact">Contact</a><a href="sr/" lang="sr">SR</a></nav></div>
+ <main id="main">
+ <!-- HERO -->
+ <div class="hero" id="home">
+   <div class="hero-text">
+-    <p class="hero-eyebrow">Available for projects · Reply within 1 hour</p>
+-    <h1><em>Web design</em> &amp; <em>development</em> that grow your business</h1>
+-    <p class="hero-bio">SNIngenia is a web design studio in Serbia. We take you from first concept to a fast, live website on Webflow or Framer, with AI integration when it helps. For small businesses and large companies alike.</p>
++    <p class="hero-eyebrow">Two-person studio · Website design and development</p>
++    <h1>A <em>website</em> that makes your <em>business clear</em></h1>
++    <p class="hero-bio">We design and build new websites and redesign existing ones — so you can explain your services, show your work and make contact straightforward. For businesses across industries, in English and Serbian.</p>
+     <div class="hero-actions">
+-      <a href="#contact" class="btn-primary" data-cta="hero">Start a project</a>
++      <a href="#contact" class="btn-primary" data-cta="hero">Arrange a 10-minute introductory call</a>
+       <a href="#work" class="btn-ghost">View our work</a>
+     </div>
++<p class="call-note">Discuss your business and website needs. We agree a time by email.</p>
+   </div>
+ </div>
+ 
+ <!-- STATS -->
+ <div class="stats-strip">
+-  <div class="stats-inner">
+-    <div class="stat reveal">
+-      <div class="stat-num">4<span>+</span></div>
+-      <div class="stat-label">Years of craft</div>
+-    </div>
+-    <div class="stat reveal">
+-      <div class="stat-num">4</div>
+-      <div class="stat-label">Industries designed for</div>
+-    </div>
+-    <div class="stat reveal">
+-      <div class="stat-num">1<span>h</span></div>
+-      <div class="stat-label">Reply time on business days</div>
+-    </div>
+-  </div>
+-</div>
++<div class="stats-inner">
++<div class="stat">
++<p class="stat-label">Two-person studio</p></div>
++<div class="stat">
++<p class="stat-label">Design and development together</p></div>
++<div class="stat">
++<p class="stat-label">English and Serbian websites</p></div></div></div>
++
+ 
+ <!-- WHO WE HELP -->
+ <section id="who-we-help" class="help-section">
+-  <div class="section-header reveal">
+-    <p class="section-label">WHO WE HELP</p>
+-    <div class="section-rule"></div>
+-  </div>
+-  <h2 class="reveal">Does this <em>sound familiar</em>?</h2>
+-  <div class="help-grid">
+-    <article class="help-card reveal">
+-      <h3>Your website looks dated, and visitors judge your business by it.</h3>
+-      <p>We redesign it to look as professional as your work, so trust is built before the first call.</p>
+-    </article>
+-    <article class="help-card reveal">
+-      <h3>People visit, but nobody gets in touch.</h3>
+-      <p>We build each page around one clear next step, so more visitors become enquiries.</p>
+-    </article>
+-    <article class="help-card reveal">
+-      <h3>Design and development happen in different places, and things get lost between them.</h3>
+-      <p>One team does both, so the design you approve is the site that ships.</p>
+-    </article>
+-    <article class="help-card reveal">
+-      <h3>The site is slow, hard to update, or breaks on phones.</h3>
+-      <p>Fast, responsive builds on Webflow or Framer that you can edit yourself.</p>
+-    </article>
+-  </div>
++<div class="section-header">
++<p class="section-label">WHAT WE DO</p>
++<div class="section-rule"></div></div>
++<h2>A website built around your <em>business</em></h2>
++<div class="help-grid">
++<article class="help-card">
++<h3>New websites</h3>
++<p>Present your services, work and business information in one clear place, with a straightforward way for visitors to contact you.</p></article>
++<article class="help-card">
++<h3>Website redesigns</h3>
++<p>Improve structure, content and the mobile experience so visitors can find what they need.</p></article>
++<article class="help-card">
++<h3>Design and development together</h3>
++<p>Work with the same small team from page planning and design to the build. We agree pages, features and handover before work starts.</p></article><article class="help-card help-platform"><span class="platform-note-label">BUILT AROUND YOU</span><h3>The right platform for your project</h3><p>We choose the platform and additional features around the project and how you want to maintain the website.</p></article>
++</div>
+ </section>
+ 
+ <!-- WORK -->
+ <section id="work">
+-  <div class="section-header reveal">
+-    <span class="section-label">Selected work</span>
+-    <div class="section-rule"></div>
+-  </div>
+-  <h2 class="reveal">Projects we're <em>proud of</em></h2>
+-
+-  <!-- TODO: confirm these challenges are accurate, and add a "Concept project" tag (existing tag style, non-interactive) to any project that is a concept/mockup. -->
+-  <div class="work-grid">
+-    <article class="work-card project-card reveal"
+-         data-role="Front-End UI Developer & Brand Layout Designer"
+-         data-timeline="4 weeks"
+-         data-deliverables="Interactive Floor Plans, Visual System, Deployment"
+-         data-challenge="The client needed a localized yet world-class web presence to market brand-new residential buildings constructed from scratch, requiring a balance of premium aesthetics and heavy visual media."
+-         data-solution="Designed a clean, sophisticated, content-first layout utilizing optimized image arrays to highlight architectural details, structural quality, and modern floor plans."
+-         data-result="A fast, beautifully rendered local real estate platform that elevates the brand above standard regional listings and drives direct buyer inquiries."
+-         data-image="images/case1.webp">
+-      <div class="card-thumb">
+-        <div class="card-thumb-inner">
+-          <img src="images/thumbnail1.webp" alt="Smart Residences website preview" width="640" height="400" loading="lazy" />
+-        </div>
+-      </div>
+-      <div class="card-body">
+-        <span class="card-tag">Real Estate Web Design · Premium Branding · Architecture Showcases</span>
+-        <h3 class="card-title">Smart Residences</h3>
+-        <p class="card-desc">A premium, minimalist showcase website for a luxury construction and residential development firm operating in Zrenjanin, Serbia.</p>
+-        <p class="card-challenge">The challenge: a premium construction firm needed a website as refined as its buildings.</p>
+-        <button type="button" class="card-open" aria-haspopup="dialog" aria-controls="projectModal" aria-label="Open Smart Residences case study"><span>View case study</span><span class="card-open-arrow" aria-hidden="true">→</span></button>
+-      </div>
+-    </article>
+-
+-    <article class="work-card project-card reveal"
+-         data-role="Front-End Developer & UI/UX Designer"
+-         data-timeline="6 weeks"
+-         data-deliverables="Booking Flow, User Accounts, Stylist Profiles, Responsive Web App"
+-         data-challenge="Booking a stylist usually means DMs, phone calls, and guesswork. Clients wanted to see a stylist’s actual work and know who they were booking before committing, and then keep track of their appointments without chasing anyone for confirmation."
+-         data-solution="Designed a visual-first experience built around before and after galleries that let clients judge a stylist’s results at a glance. Each stylist has a profile with their name, specialties, and portfolio. A simple booking flow lets users pick a stylist, choose a time slot, and receive a booking number. A personal account area lets them view, track, and manage upcoming appointments in one place."
+-         data-result="A polished, easy-to-use booking platform that builds trust through real results, cuts back-and-forth scheduling, and gives clients full visibility over their appointments from any device."
+-         data-image="images/case2.webp">
+-      <div class="card-thumb">
+-        <div class="card-thumb-inner">
+-          <img src="images/thumbnail2.webp" alt="Avazo Style booking platform preview" width="640" height="400" loading="lazy" />
+-        </div>
+-      </div>
+-      <div class="card-body">
+-        <span class="card-tag">Hair Stylist Booking · Stylist Profiles · Appointment Tracking</span>
+-        <h3 class="card-title">Avazo Style</h3>
+-        <p class="card-desc">A sleek web app for booking hair stylists, with before and after transformations, stylist profiles, and real-time appointment tracking.</p>
+-        <p class="card-challenge">The challenge: help clients find the right stylist, see their work, and keep track of appointments without the back-and-forth.</p>
+-        <button type="button" class="card-open" aria-haspopup="dialog" aria-controls="projectModal" aria-label="Open Avazo Style case study"><span>View case study</span><span class="card-open-arrow" aria-hidden="true">→</span></button>
+-      </div>
+-    </article>
+-
+-    <article class="work-card project-card reveal"
+-         data-role="Front-End Developer & UI/UX Designer"
+-         data-timeline="6 weeks"
+-         data-deliverables="Ordering Flow, Menu Customization, User Accounts, Responsive Web App"
+-         data-challenge="Customers wanted to skip the queue and get exactly the meal they like, without waiting at the counter. The client needed an ordering system that made customization simple, showed food clearly, and kept pickup timing predictable for both customers and kitchen staff."
+-         data-solution="Built a photo-driven menu where every dish is shown in full detail, with simple controls for choosing dressings, toppings, and add-ons. Customers select a pickup time, receive a booking number at checkout, and can track their order status and timing live from their account. Saved accounts keep past orders and preferences close at hand for quick reordering."
+-         data-result="A fast, appetizing ordering experience that reduces wait times, gives customers confidence about when their food will be ready, and makes repeat orders effortless."
+-         data-image="images/case3.webp">
+-      <div class="card-thumb">
+-        <div class="card-thumb-inner">
+-          <img src="images/thumbnail3.webp" alt="PickUp Fresh meal ordering app preview" width="640" height="400" loading="lazy" />
+-        </div>
+-      </div>
+-      <div class="card-body">
+-        <span class="card-tag">Meal Ordering · Menu Customization · Scheduled Pickup</span>
+-        <h3 class="card-title">PickUp Fresh</h3>
+-        <p class="card-desc">A web app for ordering meals in advance and picking them up at a scheduled time, with full control over ingredients and dressings.</p>
+-        <p class="card-challenge">The challenge: let customers customize meals, skip the queue, and know exactly when their order will be ready.</p>
+-        <button type="button" class="card-open" aria-haspopup="dialog" aria-controls="projectModal" aria-label="Open PickUp Fresh case study"><span>View case study</span><span class="card-open-arrow" aria-hidden="true">→</span></button>
+-      </div>
+-    </article>
+-
+-    <article class="work-card project-card reveal"
+-         data-role="Front-End UI Developer & Brand Layout Designer"
+-         data-timeline="6 weeks"
+-         data-deliverables="Interactive Hero Experience, Visual System, Multi-Page Portfolio Website"
+-         data-challenge="The client needed a digital presence that matched the ambition of their work. Architecture is visual and spatial, so a standard template site would not convey their design thinking. It also needed to make the studio's process and expertise easy for prospective clients to follow."
+-         data-solution="Built a clean, airy interface around a 3D isometric building model as the centerpiece, paired with a bold uppercase headline and the Crafted for Visionaries tagline. A scroll-driven experience walks visitors through the studio's design process step by step. Minimal pill navigation and a prominent Explore Projects action keep the portfolio one click away."
+-         data-result="A modern, memorable platform that presents the studio as a design-led, innovative practice, turns its process into an engaging story, and encourages visitors to explore projects and get in touch."
+-         data-image="images/case4.webp">
+-      <div class="card-thumb">
+-        <div class="card-thumb-inner">
+-          <img src="images/thumbnail4.webp" alt="ArchiNova website preview" width="640" height="400" loading="lazy" />
+-        </div>
+-      </div>
+-      <div class="card-body">
+-        <span class="card-tag">Architecture · Studio Portfolio · Interactive Experience</span>
+-        <h3 class="card-title">ArchiNova</h3>
+-        <p class="card-desc">A refined, immersive showcase website for an architecture studio that embeds creative design into every build.</p>
+-        <p class="card-challenge">The challenge: present architectural work with the same care as the designs themselves.</p>
+-        <button type="button" class="card-open" aria-haspopup="dialog" aria-controls="projectModal" aria-label="Open ArchiNova case study"><span>View case study</span><span class="card-open-arrow" aria-hidden="true">→</span></button>
+-      </div>
+-    </article>
+-  </div>
+-  <div class="project-cta">
+-    <a class="btn-primary" href="#contact" data-cta="work">Start a project</a>
+-  </div>
+-</section>
++<div class="section-header">
++<p class="section-label">SELECTED WORK</p>
++<div class="section-rule"></div></div>
++<h2>Selected websites and <em>working demos</em></h2>
++<div class="work-grid">
++<article class="work-card project-card" data-demo="false" data-status="Website project · Residential development" data-challenge="Present residential buildings and property information in a clear visual layout." data-solution="Property imagery and building details lead the page, with a restrained visual hierarchy." data-result="A presentation of the visual approach; no measured business results are reported here." data-image="images/case1.webp">
++<div class="card-thumb">
++<div class="card-thumb-inner"><img src="images/thumbnail1.webp" alt="Smart Residences — interface preview" width="640" height="400" loading="lazy"></div></div>
++<div class="card-body"><span class="card-tag">Website project · Residential development</span><h3 class="card-title">Smart Residences</h3>
++<p class="card-desc">A website presentation for residential buildings, with visual emphasis on the properties and their details.</p>
++<button type="button" class="card-open" aria-haspopup="dialog" aria-controls="projectModal" aria-label="View project details: Smart Residences"><span>View project details</span><span class="card-open-arrow" aria-hidden="true">→</span></button></div></article>
++<article class="work-card project-card" data-demo="true" data-status="Working demo · Hair appointment experience" data-challenge="Explore a possible hair-stylist selection and appointment experience." data-solution="The screen puts stylist selection and a clear next action at the centre of the experience." data-result="This example demonstrates a possible experience; it does not report customer adoption or business results." data-image="images/case3.webp">
++<div class="card-thumb">
++<div class="card-thumb-inner"><img src="images/thumbnail3.webp" alt="Invoko Cuts — interface preview" width="640" height="400" loading="lazy"></div></div>
++<div class="card-body"><span class="card-tag">Working demo · Hair appointment experience</span><h3 class="card-title">Invoko Cuts</h3>
++<p class="card-desc">A demonstration of a hair-stylist appointment concept. Not commissioned client work.</p>
++<button type="button" class="card-open" aria-haspopup="dialog" aria-controls="projectModal" aria-label="View project details: Invoko Cuts"><span>View project details</span><span class="card-open-arrow" aria-hidden="true">→</span></button></div></article>
++<article class="work-card project-card" data-demo="true" data-status="Working demo · Meal pickup experience" data-challenge="Explore a possible meal-selection and pickup experience." data-solution="Food photography and a clear menu layout help explain the ordering concept." data-result="This example demonstrates a possible experience; it does not report customer adoption or business results." data-image="images/case2.webp">
++<div class="card-thumb">
++<div class="card-thumb-inner"><img src="images/thumbnail2.webp" alt="PickUp Fresh — interface preview" width="640" height="400" loading="lazy"></div></div>
++<div class="card-body"><span class="card-tag">Working demo · Meal pickup experience</span><h3 class="card-title">PickUp Fresh</h3>
++<p class="card-desc">A demonstration of a meal-ordering and pickup concept. Not commissioned client work.</p>
++<button type="button" class="card-open" aria-haspopup="dialog" aria-controls="projectModal" aria-label="View project details: PickUp Fresh"><span>View project details</span><span class="card-open-arrow" aria-hidden="true">→</span></button></div></article>
++<article class="work-card project-card" data-demo="true" data-status="Working demo · Architecture website" data-challenge="Explore how an architecture studio could introduce its work and approach." data-solution="An architectural illustration, bold typography and spacious layout frame the portfolio concept." data-result="This example demonstrates a possible experience; it does not report customer adoption or business results." data-image="images/case4.webp">
++<div class="card-thumb">
++<div class="card-thumb-inner"><img src="images/thumbnail4.webp" alt="ArchiNova — interface preview" width="640" height="400" loading="lazy"></div></div>
++<div class="card-body"><span class="card-tag">Working demo · Architecture website</span><h3 class="card-title">ArchiNova</h3>
++<p class="card-desc">An architecture portfolio concept exploring how to present projects and a studio’s approach. Not commissioned client work.</p>
++<button type="button" class="card-open" aria-haspopup="dialog" aria-controls="projectModal" aria-label="View project details: ArchiNova"><span>View project details</span><span class="card-open-arrow" aria-hidden="true">→</span></button></div></article></div>
++<div class="project-cta"><a class="btn-primary" href="#contact" data-cta="work">Arrange a 10-minute introductory call</a></div></section>
+ 
+ <!-- ABOUT / SKILLS -->
+ <section id="about" class="about-section">
+@@ -282,10 +199,7 @@
+       </div>
+     </div>
+   </div>
+-</section>
+-
+-<!-- TEAM -->
+-<section id="team" class="creators-section">
++<div id="team" class="creators-section">
+   <div class="creators-inner">
+     <div class="section-header reveal">
+       <p class="section-label">TEAM</p>
+@@ -310,15 +224,36 @@
+         <div class="creator-body">
+           <h3 class="creator-title">Sebastian</h3>
+           <p class="creator-role">Co-founder · Developer</p>
+-          <p class="creator-copy">Sebastian leads development and client communication. He keeps every project clear, on schedule and moving from idea to launch.</p>
++          <p class="creator-copy">Sebastian leads development and client communication. He works with clients from the initial plan through development and handover.</p>
+           <a class="creator-link" href="https://www.linkedin.com/in/sebastijan-sekosan/" target="_blank" rel="noopener noreferrer" aria-label="Sebastian on LinkedIn">LinkedIn</a>
+         </div>
+       </article>
+     </div>
+   </div>
+-</section>
++</div></section>
++
++<!-- TEAM -->
++
+ 
+ <!-- FAQ -->
++<section id="process">
++<div class="section-header">
++<p class="section-label">HOW WE WORK</p>
++<div class="section-rule"></div></div>
++<h2>From conversation to <em>handover</em></h2>
++<div class="help-grid">
++<article class="help-card">
++<h3>1. Introduction</h3>
++<p>In 10 minutes, discuss your business, current website and needs. We agree a time by email.</p></article>
++<article class="help-card">
++<h3>2. Agree the scope</h3>
++<p>The proposal defines pages, features, content, revisions, responsibilities and costs.</p></article>
++<article class="help-card">
++<h3>3. Design and build</h3>
++<p>We prepare the design, collect feedback and build the agreed pages.</p></article>
++<article class="help-card">
++<h3>4. Review and handover</h3>
++<p>We check the layout and key functions, and agree launch, access and maintenance before release.</p></article></div></section>
+ <section id="faq" class="faq-section">
+   <div class="section-header reveal">
+     <p class="section-label">FAQ</p>
+@@ -326,96 +261,36 @@
+   </div>
+   <h2 class="reveal">Questions, <em>answered</em></h2>
+   <div class="faq-list">
+-    <details class="faq-item reveal">
+-      <summary>How much does a website cost?</summary>
+-      <p>Every project is scoped individually. Send a short brief and we'll reply within 1 hour on business days with a rough range and timeline.</p>
+-    </details>
+-    <details class="faq-item reveal">
+-      <summary>How long does a project take?</summary>
+-      <p>A focused small-business site usually takes 2 to 4 weeks. Larger multi-page sites take 6 to 10 weeks, depending on content and how quickly feedback comes in.</p>
+-      <!-- TODO: confirm timelines. -->
+-    </details>
+-    <details class="faq-item reveal">
+-      <summary>Do you work with big companies or only small businesses?</summary>
+-      <p>Both. We work with local business owners, startups and established companies. The process is the same: clear goals, clear scope, direct communication.</p>
+-    </details>
+-    <details class="faq-item reveal">
+-      <summary>What do you need from me to get started?</summary>
+-      <p>A short description of your business and goals, examples you like, and any logo or content you already have. We help with the structure and wording.</p>
+-    </details>
+-    <details class="faq-item reveal">
+-      <summary>Can I edit the website myself after launch?</summary>
+-      <p>Yes. We build on Webflow or Framer so you can update text and images yourself, and we walk you through it at handover.</p>
+-    </details>
+-    <details class="faq-item reveal">
+-      <summary>Do you build sites in Serbian and English?</summary>
+-      <p>Yes. We can build in Serbian, English, or both.</p>
+-    </details>
+-    <details class="faq-item reveal">
+-      <summary>What does "AI integration" mean?</summary>
+-      <p>Practical features that save you time, such as chat assistants that answer common questions, automatic lead replies, or content workflows. We only suggest it when it helps.</p>
+-    </details>
+-    <details class="faq-item reveal">
+-      <summary>Who will I be working with?</summary>
+-      <p>Directly with our two co-founders: a creative lead and a developer. No account managers in between.</p>
+-    </details>
+-  </div>
++<details class="faq-item"><summary>How do we arrange the introductory call?</summary><p>Email a short description of your business, website needs and a few suitable times with your timezone. We agree a 10-minute call by reply. The call is confirmed only when both sides agree on a time.</p></details>
++<details class="faq-item"><summary>How do you set the price and timeline?</summary><p>We prepare a proposal and schedule after agreeing the scope, content and features. We discuss pricing with you privately.</p></details>
++<details class="faq-item"><summary>What do you need from us?</summary><p>Business information, the purpose of the website, your logo and available text and images. We agree who prepares content and who approves each stage.</p></details>
++<details class="faq-item"><summary>What about revisions and extra features?</summary><p>The proposal defines the included revisions, pages and features, and how additional work is agreed before work starts.</p></details>
++<details class="faq-item"><summary>Who pays for domains, hosting and maintenance?</summary><p>Domains, hosting, subscriptions and maintenance are listed separately in the proposal, with clear responsibilities and costs.</p></details>
++<details class="faq-item"><summary>Can I update the website myself?</summary><p>We choose the platform around your editing needs. Access, training and support are agreed before the build.</p></details>
++<details class="faq-item"><summary>Do you work across industries and in both languages?</summary><p>Yes. We work with businesses across industries. Your website can be in English, Serbian or both.</p></details></div>
+ </section>
+ 
+ <!-- CONTACT -->
+ <section class="contact-band" id="contact">
+   <div class="contact-inner">
+-    <div>
+-      <p class="section-label">CONTACT</p>
+-      <h2>Tell us about your <em>project</em></h2>
+-      <p>We reply within 1 hour on business days (Mon–Fri, 09:00–18:00 CET).</p>
++    <div class="contact-intro">
++      <p class="section-label">LET’S TALK</p>
++      <h2>Arrange a <em>10-minute</em> introductory call</h2>
++      <p>A short conversation about your website. We agree a time by email.</p>
+     </div>
+     <div class="contact-details">
+-      <div class="contact-item">
+-        <span class="contact-item-label">Email</span>
+-        <a href="mailto:sningenia@gmail.com">sningenia@gmail.com</a>
+-      </div>
+-      <div class="contact-item">
+-        <span class="contact-item-label">Location</span>
+-        <p>Based in Serbia</p>
+-      </div>
+-      <div class="contact-item">
+-        <span class="contact-item-label">Availability</span>
+-        <p>Open to projects</p>
+-      </div>
+-      <div class="contact-item">
+-        <span class="contact-item-label">Find us</span>
+-        <div class="social-row">
+-          <a class="social-link" href="https://www.instagram.com/sningenia/" target="_blank" rel="noopener noreferrer" aria-label="SNIngenia on Instagram">IG</a>
+-          <a class="social-link" href="https://www.linkedin.com/company/106868611/admin/dashboard/" target="_blank" rel="noopener noreferrer" aria-label="SNIngenia on LinkedIn">in</a>
+-        </div>
++      <p class="contact-brief">Send a short description of your business and current website (if available).</p>
++      <a class="btn-primary contact-email-button" href="mailto:sningenia@gmail.com?subject=10-minute%20introductory%20call" data-cta="contact-email">Email to arrange the call <span aria-hidden="true">↗</span></a>
++      <div class="contact-meta">
++        <div class="contact-item contact-email"><span class="contact-item-label">Email</span><a class="contact-address" href="mailto:sningenia@gmail.com">sningenia@gmail.com</a></div>
++        <div class="contact-item"><span class="contact-item-label">Location</span><p>Based in Serbia</p></div>
++        <div class="contact-item"><span class="contact-item-label">Availability</span><p>Open to projects</p></div>
+       </div>
++      <div class="contact-socials"><span class="contact-item-label">Find us</span><div class="social-row">
++        <a href="https://www.instagram.com/sningenia/" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a>
++        <a href="https://www.linkedin.com/company/106868611/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
++      </div></div>
+     </div>
+-    <!-- TODO: Connect a real form endpoint before accepting submissions. -->
+-    <form class="contact-form" id="contactForm" action="mailto:sningenia@gmail.com" method="post" enctype="text/plain" data-endpoint="" data-clarity-mask="true">
+-      <div class="form-honeypot" aria-hidden="true">
+-        <label for="website">Leave this field empty</label>
+-        <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+-      </div>
+-      <div class="form-row">
+-        <label for="name">Name</label>
+-        <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" required>
+-      </div>
+-      <div class="form-row">
+-        <label for="email">Email</label>
+-        <input type="email" id="email" name="email" placeholder="you@email.com" autocomplete="email" required>
+-      </div>
+-      <div class="form-row">
+-        <label for="message">Project brief</label>
+-        <textarea id="message" name="message" rows="5" placeholder="Short summary of your project" required></textarea>
+-      </div>
+-      <button type="submit" class="btn-primary">Send message</button>
+-      <p class="form-note">Reply within 1 hour on business days.</p>
+-      <p class="form-note">By sending this message you agree to the processing of your data as described in our <a href="privacy.html">Privacy Policy</a>.</p>
+-      <p class="form-success" id="contactSuccess" role="status" aria-live="polite" hidden>Thanks for your message. We'll be in touch soon.</p>
+-      <p class="form-error" id="contactError" role="alert" aria-live="assertive" hidden><span id="contactErrorMessage">The form is not connected yet. Please email</span> <a href="mailto:sningenia@gmail.com">sningenia@gmail.com</a> instead.</p>
+-      <noscript><p class="form-error">JavaScript is required for this form. Please email <a href="mailto:sningenia@gmail.com">sningenia@gmail.com</a>.</p></noscript>
+-    </form>
+   </div>
+ </section>
+ </main>
+@@ -424,37 +299,22 @@
+ <div class="project-modal" id="projectModal" aria-hidden="true">
+   <div class="modal-backdrop" id="modalBackdrop"></div>
+   <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+-    <button class="modal-close" id="modalClose" aria-label="Close case study">×</button>
++    <button class="modal-close" id="modalClose" type="button" aria-label="Close project details">×</button>
+     <div class="modal-content">
+-      <div class="modal-meta">
+-        <span class="modal-tag">Project case study</span>
+-        <h2 id="modalTitle">Project Title & Outcome</h2>
+-        <p class="modal-subtitle">A concise outcome statement describing impact in one sentence.</p>
+-      </div>
+-      <div class="modal-grid">
+-        <div class="modal-details">
+-          <div class="detail-row"><span>Role</span><strong>Product Design, Webflow & Framer Development, AI Integration</strong></div>
+-          <div class="detail-row"><span>Timeline</span><strong>Placeholder timeline</strong></div>
+-          <div class="detail-row"><span>Deliverables</span><strong>Design system, website build, AI workflow</strong></div>
+-        </div>
+-        <div class="modal-copy">
+-          <div class="modal-block">
+-            <h3>The Challenge</h3>
+-            <p>Placeholder description of the problem the client was facing and the opportunity for improvement.</p>
+-          </div>
+-          <div class="modal-block">
+-            <h3>The Solution</h3>
+-            <p>Placeholder description of how Figma, Webflow/Framer, and AI integration solved the challenge with a polished website experience.</p>
+-          </div>
+-        </div>
+-      </div>
+-      <div class="modal-visual">
+-        <img id="modalImage" src="images/case1.webp" alt="Case study image" width="1200" height="800" loading="lazy" />
+-      </div>
++      <div class="modal-meta"><span class="modal-tag"></span><h2 id="modalTitle"></h2>
++<p class="modal-subtitle"></p></div>
++      <div class="modal-visual"><img id="modalImage" src="images/case1.webp" alt="" width="1200" height="800" loading="lazy"></div>
++      <div class="modal-copy">
++<div class="modal-block">
++<h3>Purpose</h3>
++<p></p></div>
++<div class="modal-block">
++<h3>Visual approach</h3>
++<p></p></div></div>
+       <div class="modal-result">
+-        <h3>The Result</h3>
+-        <p>Placeholder summary of the impact, performance gains, or final outcome delivered through the project.</p>
+-      </div>
++<h3>About this preview</h3>
++<p></p></div>
++      <a class="btn-primary modal-call" href="#contact" data-cta="project-dialog">Arrange a 10-minute introductory call</a>
+     </div>
+   </div>
+ </div>
+@@ -465,8 +325,6 @@
+   <p>Web design, development and AI integration.</p>
+   <p><a class="footer-link" href="privacy.html">Privacy Policy</a></p>
+ </footer>
+-
+-<script src="analytics.js" defer></script>
+ <script src="script.js"></script>
+ 
+ </body>
+diff --git a/sr/index.html b/sr/index.html
+--- a/sr/index.html
++++ b/sr/index.html
+@@ -4,35 +4,35 @@
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-<title>SNIngenia | Veb dizajn i izrada sajtova u Srbiji (Webflow, Framer)</title>
+-<meta name="description" content="Izrada sajtova i veb dizajn u Srbiji za mala preduzeća i velike kompanije. Webflow, Framer i praktična AI integracija. Odgovaramo u roku od 1 sata radnim danima.">
+-<!-- TODO: Replace https://example.com with the production domain before launch. -->
+-<link rel="canonical" href="https://example.com/sr/">
+-<link rel="alternate" hreflang="en" href="https://example.com/">
+-<link rel="alternate" hreflang="sr" href="https://example.com/sr/">
+-<link rel="alternate" hreflang="x-default" href="https://example.com/">
++<title>SNIngenia | Veb dizajn i izrada sajtova u Srbiji</title>
++<meta name="description" content="SNIngenia — dizajn i izrada novih sajtova i redizajn postojećih, na srpskom i engleskom. Dogovorite uvodni poziv od 10 minuta e-poštom.">
++<link rel="canonical" href="https://www.sningenia.com/sr/">
++<link rel="alternate" hreflang="en" href="https://www.sningenia.com/">
++<link rel="alternate" hreflang="sr" href="https://www.sningenia.com/sr/">
++<link rel="alternate" hreflang="x-default" href="https://www.sningenia.com/">
+ <meta property="og:type" content="website">
+ <meta property="og:locale" content="sr_RS">
+ <meta property="og:title" content="SNIngenia | Veb dizajn i izrada sajtova u Srbiji">
+-<meta property="og:description" content="Izrada sajtova i veb dizajn u Srbiji za mala preduzeća i velike kompanije. Webflow, Framer i praktična AI integracija.">
+-<meta property="og:url" content="https://example.com/sr/">
+-<meta property="og:image" content="https://example.com/images/thumbnail1.webp">
++<meta property="og:description" content="Novi sajtovi i redizajn postojećih, na srpskom i engleskom. Dogovorite uvodni poziv od 10 minuta e-poštom.">
++<meta property="og:url" content="https://www.sningenia.com/sr/">
++<meta property="og:image" content="https://www.sningenia.com/images/thumbnail1.webp">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="twitter:title" content="SNIngenia | Veb dizajn i izrada sajtova u Srbiji">
+-<meta name="twitter:description" content="Izrada sajtova i veb dizajn u Srbiji za mala preduzeća i velike kompanije. Webflow, Framer i praktična AI integracija.">
+-<meta name="twitter:image" content="https://example.com/images/thumbnail1.webp">
++<meta name="twitter:description" content="Novi sajtovi i redizajn postojećih, na srpskom i engleskom. Dogovorite uvodni poziv od 10 minuta e-poštom.">
++<meta name="twitter:image" content="https://www.sningenia.com/images/thumbnail1.webp">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
++<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
++<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="../styles.css">
+ <script type="application/ld+json">
+ {
+   "@context": "https://schema.org",
+   "@type": "ProfessionalService",
+   "name": "SNIngenia",
+-  "url": "https://example.com/sr/",
++  "url": "https://www.sningenia.com/sr/",
+   "areaServed": "Serbia",
+   "email": "sningenia@gmail.com",
+-  "sameAs": ["https://www.instagram.com/sningenia/", "https://www.linkedin.com/company/106868611/admin/dashboard/"]
++  "sameAs": ["https://www.instagram.com/sningenia/"]
+ }
+ </script>
+ </head>
+@@ -41,7 +41,7 @@
+ 
+ <nav aria-label="Glavna navigacija">
+   <a class="nav-logo" href="#home" aria-label="SNIngenia početna strana">
+-    <img src="../images/logo-header.svg" alt="SNIngenia" width="1536" height="1024">
++    <img src="../images/logo-header.webp" alt="SNIngenia" width="1536" height="326">
+   </a>
+   <button class="nav-toggle" type="button" aria-label="Uključi ili isključi navigaciju" aria-controls="mobileNav" aria-expanded="false">
+     <span></span><span></span><span></span>
+@@ -49,10 +49,10 @@
+   <ul class="nav-links">
+     <li><a href="#work">Projekti</a></li>
+     <li><a href="#about">O nama</a></li>
+-    <li><a href="#team">Tim</a></li>
++
+     <li><a href="#faq">FAQ</a></li>
+     <li class="language-switcher"><a href="../index.html" lang="en">EN</a><span aria-hidden="true">|</span><a href="./index.html" lang="sr" aria-current="page">SR</a></li>
+-    <li><a class="btn-primary nav-cta" href="#contact" data-cta="nav-desktop">Započnimo projekat</a></li>
++    <li><a class="btn-primary nav-cta" href="#contact" data-cta="nav-desktop">Dogovorite uvodni poziv od 10 minuta</a></li>
+   </ul>
+ </nav>
+ <div class="mobile-nav" id="mobileNav" aria-hidden="true" inert>
+@@ -60,104 +60,95 @@
+   <ul class="mobile-nav-links">
+     <li><a href="#work">Projekti</a></li>
+     <li><a href="#about">O nama</a></li>
+-    <li><a href="#team">Tim</a></li>
++
+     <li><a href="#faq">FAQ</a></li>
+     <li class="language-switcher"><a href="../index.html" lang="en">EN</a><span aria-hidden="true">|</span><a href="./index.html" lang="sr" aria-current="page">SR</a></li>
+-    <li><a class="btn-primary" href="#contact" data-cta="nav-mobile">Započnimo projekat</a></li>
++    <li><a class="btn-primary" href="#contact" data-cta="nav-mobile">Dogovorite uvodni poziv od 10 minuta</a></li>
+   </ul>
+ </div>
+ 
+-<div class="mobile-cta" id="mobileCta" aria-hidden="true" inert><a class="btn-primary" href="#contact" data-cta="sticky">Započnimo projekat</a></div>
++<div class="mobile-cta" id="mobileCta" aria-hidden="true" inert><a class="btn-primary" href="#contact" data-cta="sticky">Dogovorite uvodni poziv od 10 minuta</a></div>
+ 
++<div class="fallback-navigation"><nav class="fallback-nav" aria-label="Navigacija bez JavaScript-a"><a href="#work">Radovi</a><a href="#about">O nama</a><a href="#faq">FAQ</a><a href="#contact">Kontakt</a><a href="../" lang="en">EN</a></nav></div>
+ <main id="main">
+ <div class="hero" id="home">
+   <div class="hero-text">
+-    <p class="hero-eyebrow">Dostupni za projekte · Odgovaramo u roku od 1 sata</p>
+-    <h1><em>Veb dizajn</em> i <em>razvoj</em> koji pokreću rast vašeg biznisa</h1>
+-    <p class="hero-bio">SNIngenia je studio za veb dizajn u Srbiji. Vodimo vas od prve ideje do brzog, objavljenog sajta na platformi Webflow ili Framer, uz AI integraciju kada je korisna. Radimo i sa malim preduzećima i sa velikim kompanijama.</p>
++    <p class="hero-eyebrow">Studio sa dva člana · Dizajn i izrada sajtova</p>
++    <h1><em>Sajt</em> koji jasno predstavlja vaše <em>poslovanje</em></h1>
++    <p class="hero-bio">Dizajniramo i izrađujemo nove sajtove i redizajniramo postojeće — da jasno predstavite usluge, pokažete radove i olakšate kontakt. Radimo sa firmama iz različitih oblasti, na srpskom i engleskom.</p>
+     <div class="hero-actions">
+-      <a href="#contact" class="btn-primary" data-cta="hero">Započnimo projekat</a>
++      <a href="#contact" class="btn-primary" data-cta="hero">Dogovorite uvodni poziv od 10 minuta</a>
+       <a href="#work" class="btn-ghost">Pogledajte projekte</a>
+     </div>
++<p class="call-note">Razgovaramo o vašem poslu i potrebama za sajt. Termin dogovaramo e-poštom.</p>
+   </div>
+ </div>
+ 
+ <div class="stats-strip">
+-  <div class="stats-inner">
+-    <div class="stat reveal"><div class="stat-num">4<span>+</span></div><div class="stat-label">Godine rada</div></div>
+-    <div class="stat reveal"><div class="stat-num">4</div><div class="stat-label">Industrije za koje dizajniramo</div></div>
+-    <div class="stat reveal"><div class="stat-num">1<span>h</span></div><div class="stat-label">Vreme odgovora radnim danima</div></div>
+-  </div>
+-</div>
++<div class="stats-inner">
++<div class="stat">
++<p class="stat-label">Studio sa dva člana</p></div>
++<div class="stat">
++<p class="stat-label">Dizajn i izrada u jednom timu</p></div>
++<div class="stat">
++<p class="stat-label">Sajtovi na srpskom i engleskom</p></div></div></div>
++
+ 
+ <section id="who-we-help" class="help-section">
+-  <div class="section-header reveal"><p class="section-label">KOME POMAŽEMO</p><div class="section-rule"></div></div>
+-  <h2 class="reveal">Da li vam ovo <em>zvuči poznato</em>?</h2>
+-  <div class="help-grid">
+-    <article class="help-card reveal"><h3>Vaš sajt izgleda zastarelo, a posetioci na osnovu njega procenjuju vaš posao.</h3><p>Redizajniraćemo ga tako da izgleda profesionalno kao i vaš rad, kako biste stekli poverenje pre prvog poziva.</p></article>
+-    <article class="help-card reveal"><h3>Ljudi posećuju sajt, ali vam se niko ne javlja.</h3><p>Svaku stranicu gradimo oko jednog jasnog sledećeg koraka, kako bi se više poseta pretvorilo u upite.</p></article>
+-    <article class="help-card reveal"><h3>Dizajn i razvoj rade se odvojeno, pa se važne stvari izgube usput.</h3><p>Jedan tim radi oba posla, tako da sajt koji objavimo odgovara dizajnu koji ste odobrili.</p></article>
+-    <article class="help-card reveal"><h3>Sajt je spor, teško ga je ažurirati ili ne radi dobro na telefonu.</h3><p>Pravimo brze, prilagodljive sajtove u Webflow-u ili Framer-u koje možete sami da uređujete.</p></article>
+-  </div>
+-  <p class="help-audience">Radimo sa malim preduzećima, startup kompanijama u razvoju i etabliranim firmama.</p>
++<div class="section-header">
++<p class="section-label">USLUGE</p>
++<div class="section-rule"></div></div>
++<h2>Sajt prilagođen potrebama vašeg <em>poslovanja</em></h2>
++<div class="help-grid">
++<article class="help-card">
++<h3>Novi sajtovi</h3>
++<p>Predstavite usluge, radove i informacije o poslovanju na jednom preglednom mestu, uz jednostavan način da vas posetioci kontaktiraju.</p></article>
++<article class="help-card">
++<h3>Redizajn postojećeg sajta</h3>
++<p>Unapređujemo strukturu, sadržaj i prikaz na telefonu kako bi posetioci lakše pronašli potrebne informacije.</p></article>
++<article class="help-card">
++<h3>Dizajn i izrada u jednom timu</h3>
++<p>Sarađujete sa istim malim timom od plana stranica i dizajna do izrade sajta. Pre početka rada dogovaramo stranice, funkcije i primopredaju.</p></article><article class="help-card help-platform"><span class="platform-note-label">PRILAGOĐENO VAMA</span><h3>Prava platforma za vaš projekat</h3><p>Platformu i dodatne funkcije biramo prema projektu i načinu održavanja sajta.</p></article>
++</div>
+ </section>
+ 
+ <section id="work">
+-  <div class="section-header reveal"><p class="section-label">IZABRANI PROJEKTI</p><div class="section-rule"></div></div>
+-  <h2 class="reveal">Projekti na koje smo <em>ponosni</em></h2>
+-  <!-- TODO: Potvrdite tačnost ovih izazova i dodajte neinteraktivnu oznaku „Konceptualni projekat” svakom projektu koji je koncept ili maketa. -->
+-  <div class="work-grid">
+-    <article class="work-card project-card reveal"
+-      data-role="Frontend UI programer i dizajner brend sistema"
+-      data-timeline="4 nedelje"
+-      data-deliverables="Interaktivni tlocrti, vizuelni sistem, objavljivanje"
+-      data-challenge="Klijentu je bilo potrebno lokalno, ali svetski kvalitetno prisustvo na internetu za promociju novih stambenih zgrada, uz spoj premium estetike i bogatog vizuelnog sadržaja."
+-      data-solution="Osmislili smo čist, sofisticiran raspored koji stavlja sadržaj u prvi plan i koristi optimizovane galerije kako bi istakao arhitektonske detalje, kvalitet gradnje i moderne tlocrte."
+-      data-result="Brza i pažljivo izrađena lokalna platforma koja izdvaja brend od uobičajenih regionalnih oglasa i podstiče direktne upite kupaca."
+-      data-image="../images/case1.webp">
+-      <div class="card-thumb"><div class="card-thumb-inner"><img src="../images/thumbnail1.webp" alt="Prikaz sajta Smart Residences" width="640" height="400" loading="lazy"></div></div>
+-      <div class="card-body"><span class="card-tag">Nekretnine · Premium brend · Arhitektura</span><h3 class="card-title">Smart Residences</h3><p class="card-desc">Premium, minimalistički sajt za luksuznu građevinsku i stambenu kompaniju iz Zrenjanina.</p><p class="card-challenge">Izazov: premium građevinskoj firmi bio je potreban sajt jednako doteran kao i njene zgrade.</p><button type="button" class="card-open" aria-haspopup="dialog" aria-controls="projectModal" aria-label="Otvori studiju slučaja Smart Residences"><span>Pogledajte studiju slučaja</span><span class="card-open-arrow" aria-hidden="true">→</span></button></div>
+-    </article>
+-    <article class="work-card project-card reveal"
+-      data-role="Frontend UI programer i dizajner brend sistema"
+-      data-timeline="2 nedelje"
+-      data-deliverables="Ilustracija maskote, interaktivni karusel, integracija zakazivanja"
+-      data-challenge="Strah od zubara najveća je prepreka za decu i roditelje. Klijentu je bio potreban sajt koji uliva sigurnost umesto da deluje klinički, a istovremeno podstiče porodice da brzo zakažu posetu."
+-      data-solution="Osmislili smo nežan svet nebeskoplave boje, veselu maskotu zubića, topao naslovni font i interaktivni karusel sa prednostima: pažljiva nega, posete koje deca vole i usluga prilagođena porodici. Dugme za zakazivanje i oznaka da primaju nove pacijente jasno pokazuju sledeći korak."
+-      data-result="Veselo i pristupačno iskustvo koje ublažava nervozu dece i roditelja pred prvu posetu i olakšava zakazivanje."
+-      data-image="../images/case2.webp">
+-      <div class="card-thumb"><div class="card-thumb-inner"><img src="../images/thumbnail2.webp" alt="Prikaz sajta Little Smiles Dentistry" width="640" height="400" loading="lazy"></div></div>
+-      <div class="card-body"><span class="card-tag">Dečja stomatologija · Porodična nega · Zakazivanje</span><h3 class="card-title">Little Smiles Dentistry</h3><p class="card-desc">Veseli sajt za dečjeg stomatologa koji posete čini zabavnim za decu, a bezbrižnim za roditelje.</p><p class="card-challenge">Izazov: pomoći deci i roditeljima da se osećaju sigurno i učiniti zakazivanje jednostavnim.</p><button type="button" class="card-open" aria-haspopup="dialog" aria-controls="projectModal" aria-label="Otvori studiju slučaja Little Smiles Dentistry"><span>Pogledajte studiju slučaja</span><span class="card-open-arrow" aria-hidden="true">→</span></button></div>
+-    </article>
+-    <article class="work-card project-card reveal"
+-      data-role="Frontend UI programer i dizajner brend sistema"
+-      data-timeline="3 nedelje"
+-      data-deliverables="Vizuelni sistem, prilagodljiv sajt, slanje zahteva za ponudu"
+-      data-challenge="Klijentu je bilo potrebno prisustvo na internetu koje jasno prenosi pouzdanost i tehničku preciznost i koje posetioce podstiče da zatraže ponudu, umesto da samo pregledaju reference."
+-      data-solution="Napravili smo samouveren raspored zasnovan na tipografiji, sa velikim naslovima, prigušenom arhitektonskom paletom i crtežima koji podsećaju na nacrte. Stalno vidljiv poziv za ponudu olakšava sledeći korak."
+-      data-result="Jasna i pouzdana platforma koja izdvaja firmu od generičkih sajtova izvođača i potencijalnim klijentima olakšava da zatraže ponudu."
+-      data-image="../images/case3.webp">
+-      <div class="card-thumb"><div class="card-thumb-inner"><img src="../images/thumbnail3.webp" alt="Prikaz sajta Clive Contractors" width="640" height="400" loading="lazy"></div></div>
+-      <div class="card-body"><span class="card-tag">Građevina · Održiva gradnja · Ponude</span><h3 class="card-title">Clive Contractors</h3><p class="card-desc">Snažan sajt inspirisan nacrtima za izvođača efikasnih i održivih građevinskih projekata.</p><p class="card-challenge">Izazov: izgraditi poverenje u tradicionalnog izvođača i pojednostaviti zahteve za ponudu.</p><button type="button" class="card-open" aria-haspopup="dialog" aria-controls="projectModal" aria-label="Otvori studiju slučaja Clive Contractors"><span>Pogledajte studiju slučaja</span><span class="card-open-arrow" aria-hidden="true">→</span></button></div>
+-    </article>
+-    <article class="work-card project-card reveal"
+-      data-role="Frontend UI programer i dizajner brend sistema"
+-      data-timeline="6 nedelja"
+-      data-deliverables="Interaktivno početno iskustvo, vizuelni sistem, portfolio sa više stranica"
+-      data-challenge="Studiju je bilo potrebno digitalno prisustvo koje prati ambiciju njenih radova. Arhitektura je vizuelna i prostorna, pa standardni predložak ne bi preneo način razmišljanja studija. Proces i stručnost morali su da budu jasni budućim klijentima."
+-      data-solution="Napravili smo prozračan interfejs čije je središte 3D izometrijski model zgrade, uz upečatljiv naslov i poruku „Stvoreno za vizionare”. Iskustvo vođeno skrolovanjem prikazuje faze procesa, a jasna navigacija vodi do portfolija."
+-      data-result="Savremena i upečatljiva platforma koja predstavlja studio kao inovativan tim usmeren na dizajn, pretvara njegov proces u zanimljivu priču i podstiče posetioce da istraže projekte i jave se."
+-      data-image="../images/case4.webp">
+-      <div class="card-thumb"><div class="card-thumb-inner"><img src="../images/thumbnail4.webp" alt="Prikaz sajta ArchiNova" width="640" height="400" loading="lazy"></div></div>
+-      <div class="card-body"><span class="card-tag">Arhitektura · Portfolio studija · Interaktivno iskustvo</span><h3 class="card-title">ArchiNova</h3><p class="card-desc">Sofisticiran, imerzivan portfolio sajt arhitektonskog studija koji kreativni dizajn unosi u svaki projekat.</p><p class="card-challenge">Izazov: predstaviti arhitektonske radove sa istom pažnjom kao i same projekte.</p><button type="button" class="card-open" aria-haspopup="dialog" aria-controls="projectModal" aria-label="Otvori studiju slučaja ArchiNova"><span>Pogledajte studiju slučaja</span><span class="card-open-arrow" aria-hidden="true">→</span></button></div>
+-    </article>
+-  </div>
+-  <div class="project-cta"><a class="btn-primary" href="#contact" data-cta="work">Započnimo projekat</a></div>
+-</section>
++<div class="section-header">
++<p class="section-label">IZABRANI RADOVI</p>
++<div class="section-rule"></div></div>
++<h2>Izabrani sajtovi i <em>funkcionalni demo projekti</em></h2>
++<div class="work-grid">
++<article class="work-card project-card" data-demo="false" data-status="Veb projekat · Stambena izgradnja" data-challenge="Predstaviti stambene objekte i informacije o nekretninama u preglednom vizuelnom rasporedu." data-solution="Fotografije objekata i detalji nekretnina su u prvom planu, uz svedenu vizuelnu hijerarhiju." data-result="Prikaz vizuelnog rešenja; ovde nisu navedeni izmereni poslovni rezultati." data-image="../images/case1.webp">
++<div class="card-thumb">
++<div class="card-thumb-inner"><img src="../images/thumbnail1.webp" alt="Smart Residences — prikaz interfejsa" width="640" height="400" loading="lazy"></div></div>
++<div class="card-body"><span class="card-tag">Veb projekat · Stambena izgradnja</span><h3 class="card-title">Smart Residences</h3>
++<p class="card-desc">Sajt za predstavljanje stambenih objekata, sa naglaskom na fotografije i detalje nekretnina.</p>
++<button type="button" class="card-open" aria-haspopup="dialog" aria-controls="projectModal" aria-label="Pogledajte detalje projekta: Smart Residences"><span>Pogledajte detalje projekta</span><span class="card-open-arrow" aria-hidden="true">→</span></button></div></article>
++<article class="work-card project-card" data-demo="true" data-status="Funkcionalni demo · Zakazivanje kod frizera" data-challenge="Istražiti moguće iskustvo izbora frizera i zakazivanja termina." data-solution="Prikaz stavlja izbor frizera i jasan sledeći korak u središte iskustva." data-result="Ovaj primer prikazuje moguće rešenje; ne predstavlja dokaz o broju korisnika niti o poslovnim rezultatima." data-image="../images/case3.webp">
++<div class="card-thumb">
++<div class="card-thumb-inner"><img src="../images/thumbnail3.webp" alt="Invoko Cuts — prikaz interfejsa" width="640" height="400" loading="lazy"></div></div>
++<div class="card-body"><span class="card-tag">Funkcionalni demo · Zakazivanje kod frizera</span><h3 class="card-title">Invoko Cuts</h3>
++<p class="card-desc">Demonstracija koncepta za zakazivanje kod frizera. Nije rađena po narudžbini klijenta.</p>
++<button type="button" class="card-open" aria-haspopup="dialog" aria-controls="projectModal" aria-label="Pogledajte detalje projekta: Invoko Cuts"><span>Pogledajte detalje projekta</span><span class="card-open-arrow" aria-hidden="true">→</span></button></div></article>
++<article class="work-card project-card" data-demo="true" data-status="Funkcionalni demo · Poručivanje hrane za preuzimanje" data-challenge="Istražiti moguće iskustvo izbora obroka i preuzimanja hrane." data-solution="Fotografije hrane i pregledan meni objašnjavaju koncept poručivanja." data-result="Ovaj primer prikazuje moguće rešenje; ne predstavlja dokaz o broju korisnika niti o poslovnim rezultatima." data-image="../images/case2.webp">
++<div class="card-thumb">
++<div class="card-thumb-inner"><img src="../images/thumbnail2.webp" alt="PickUp Fresh — prikaz interfejsa" width="640" height="400" loading="lazy"></div></div>
++<div class="card-body"><span class="card-tag">Funkcionalni demo · Poručivanje hrane za preuzimanje</span><h3 class="card-title">PickUp Fresh</h3>
++<p class="card-desc">Demonstracija koncepta za poručivanje i preuzimanje hrane. Nije rađena po narudžbini klijenta.</p>
++<button type="button" class="card-open" aria-haspopup="dialog" aria-controls="projectModal" aria-label="Pogledajte detalje projekta: PickUp Fresh"><span>Pogledajte detalje projekta</span><span class="card-open-arrow" aria-hidden="true">→</span></button></div></article>
++<article class="work-card project-card" data-demo="true" data-status="Funkcionalni demo · Arhitektonski sajt" data-challenge="Istražiti kako arhitektonski studio može predstaviti radove i svoj pristup." data-solution="Arhitektonska ilustracija, upečatljiva tipografija i prozračan raspored oblikuju koncept portfolija." data-result="Ovaj primer prikazuje moguće rešenje; ne predstavlja dokaz o broju korisnika niti o poslovnim rezultatima." data-image="../images/case4.webp">
++<div class="card-thumb">
++<div class="card-thumb-inner"><img src="../images/thumbnail4.webp" alt="ArchiNova — prikaz interfejsa" width="640" height="400" loading="lazy"></div></div>
++<div class="card-body"><span class="card-tag">Funkcionalni demo · Arhitektonski sajt</span><h3 class="card-title">ArchiNova</h3>
++<p class="card-desc">Koncept arhitektonskog portfolija koji istražuje predstavljanje projekata i pristupa studija. Nije rađen po narudžbini klijenta.</p>
++<button type="button" class="card-open" aria-haspopup="dialog" aria-controls="projectModal" aria-label="Pogledajte detalje projekta: ArchiNova"><span>Pogledajte detalje projekta</span><span class="card-open-arrow" aria-hidden="true">→</span></button></div></article></div>
++<div class="project-cta"><a class="btn-primary" href="#contact" data-cta="work">Dogovorite uvodni poziv od 10 minuta</a></div></section>
+ 
+ <section id="about" class="about-section">
+   <div class="about-inner">
+-    <div class="section-header reveal"><p class="section-label">O NAMA</p><div class="section-rule"></div></div>
++    <div class="section-header reveal">
++<p class="section-label">O NAMA</p>
++<div class="section-rule"></div></div>
+     <div class="skills-layout">
+       <div class="skills-left">
+         <h2 class="reveal">Dizajniramo i razvijamo <em>na jednom mestu</em></h2>
+@@ -166,69 +157,101 @@
+         <p class="reveal">Kada nismo za ekranom, verovatno vežbamo kalisteniku, razbistravamo misli u dugoj šetnji ili gubimo partiju onlajn šaha.</p>
+       </div>
+       <div>
+-        <div class="skill-group reveal"><h3 class="skill-group-label">Dizajn</h3><div class="skill-tags"><span class="skill-tag">Figma</span><span class="skill-tag">Vizuelni sistemi</span><span class="skill-tag">Dizajn interakcija</span><span class="skill-tag">Dizajn animacija</span><span class="skill-tag">Doterivanje interfejsa</span></div></div>
+-        <div class="skill-group reveal"><h3 class="skill-group-label">Razvoj</h3><div class="skill-tags"><span class="skill-tag">Webflow</span><span class="skill-tag">Framer</span><span class="skill-tag">Brzina sajta</span><span class="skill-tag">Backend i forme</span><span class="skill-tag">AI integracija</span><span class="skill-tag">Animacije</span></div></div>
+-        <div class="skill-group reveal"><h3 class="skill-group-label">Oblasti rada</h3><div class="skill-tags"><span class="skill-tag">Prilagodljivi sajtovi</span><span class="skill-tag">Performanse sajta</span><span class="skill-tag">Interakcije na sajtu</span></div></div>
++        <div class="skill-group reveal">
++<h3 class="skill-group-label">Dizajn</h3>
++<div class="skill-tags"><span class="skill-tag">Figma</span><span class="skill-tag">Vizuelni sistemi</span><span class="skill-tag">Dizajn interakcija</span><span class="skill-tag">Dizajn animacija</span><span class="skill-tag">Doterivanje interfejsa</span></div></div>
++        <div class="skill-group reveal">
++<h3 class="skill-group-label">Razvoj</h3>
++<div class="skill-tags"><span class="skill-tag">Webflow</span><span class="skill-tag">Framer</span><span class="skill-tag">Brzina sajta</span><span class="skill-tag">Backend i forme</span><span class="skill-tag">AI integracija</span><span class="skill-tag">Animacije</span></div></div>
++        <div class="skill-group reveal">
++<h3 class="skill-group-label">Oblasti rada</h3>
++<div class="skill-tags"><span class="skill-tag">Prilagodljivi sajtovi</span><span class="skill-tag">Performanse sajta</span><span class="skill-tag">Interakcije na sajtu</span></div></div>
+       </div>
+     </div>
+   </div>
+-</section>
+-
+-<section id="team" class="creators-section">
++<div id="team" class="creators-section">
+   <div class="creators-inner">
+-    <div class="section-header reveal"><p class="section-label">TIM</p><div class="section-rule"></div></div>
++    <div class="section-header reveal">
++<p class="section-label">TIM</p>
++<div class="section-rule"></div></div>
+     <h2 class="reveal">Upoznajte <em>tim</em></h2>
+     <div class="creators-grid">
+       <article class="creator-card reveal">
+         <!-- TODO: Zameniti inicijale zasebnom Nikolinom fotografijom kada bude dostavljena. -->
+         <div class="creator-img creator-avatar-placeholder" role="img" aria-label="Fotografija Nikole još nije dostupna">NK</div>
+-        <div class="creator-body"><h3 class="creator-title">Nikola</h3><p class="creator-role">Suosnivač · Kreativni direktor</p><p class="creator-copy">Nikola vodi dizajn, sadržaj i strategiju za društvene mreže. Pomaže brendovima da izgledaju upečatljivo i povežu se sa svojom publikom.</p><a class="creator-link" href="https://www.linkedin.com/in/nikolakindlajn/" target="_blank" rel="noopener noreferrer" aria-label="Nikola na LinkedIn-u">LinkedIn</a></div>
++        <div class="creator-body">
++<h3 class="creator-title">Nikola</h3>
++<p class="creator-role">Suosnivač · Kreativni direktor</p>
++<p class="creator-copy">Nikola vodi dizajn, sadržaj i strategiju za društvene mreže. Pomaže brendovima da izgledaju upečatljivo i povežu se sa svojom publikom.</p>
++<a class="creator-link" href="https://www.linkedin.com/in/nikolakindlajn/" target="_blank" rel="noopener noreferrer" aria-label="Nikola na LinkedIn-u">LinkedIn</a></div>
+       </article>
+       <article class="creator-card reveal">
+         <div class="creator-img"><img src="../images/profilepicture1.webp" alt="Fotografija Sebastijana, suosnivača i programera" width="600" height="600" loading="lazy"></div>
+-        <div class="creator-body"><h3 class="creator-title">Sebastian</h3><p class="creator-role">Suosnivač · Programer</p><p class="creator-copy">Sebastian vodi razvoj i komunikaciju sa klijentima. Svaki projekat drži jasnim, u planiranom roku i na putu od ideje do objave.</p><a class="creator-link" href="https://www.linkedin.com/in/sebastijan-sekosan/" target="_blank" rel="noopener noreferrer" aria-label="Sebastian na LinkedIn-u">LinkedIn</a></div>
++        <div class="creator-body">
++<h3 class="creator-title">Sebastian</h3>
++<p class="creator-role">Suosnivač · Programer</p>
++<p class="creator-copy">Sebastian vodi razvoj i komunikaciju sa klijentima. Sarađuje sa klijentima od početnog plana do izrade i primopredaje.</p>
++<a class="creator-link" href="https://www.linkedin.com/in/sebastijan-sekosan/" target="_blank" rel="noopener noreferrer" aria-label="Sebastian na LinkedIn-u">LinkedIn</a></div>
+       </article>
+     </div>
+   </div>
+-</section>
++</div></section>
++
+ 
++
++<section id="process">
++<div class="section-header">
++<p class="section-label">KAKO RADIMO</p>
++<div class="section-rule"></div></div>
++<h2>Od razgovora do <em>primopredaje</em></h2>
++<div class="help-grid">
++<article class="help-card">
++<h3>1. Uvodni razgovor</h3>
++<p>Za 10 minuta razgovaramo o vašem poslovanju, postojećem sajtu i potrebama. Termin dogovaramo e-poštom.</p></article>
++<article class="help-card">
++<h3>2. Dogovor o obimu</h3>
++<p>U ponudi definišemo stranice, funkcije, sadržaj, revizije, odgovornosti i troškove.</p></article>
++<article class="help-card">
++<h3>3. Dizajn i izrada</h3>
++<p>Pripremamo dizajn, prikupljamo povratne informacije i izrađujemo dogovorene stranice.</p></article>
++<article class="help-card">
++<h3>4. Provera i primopredaja</h3>
++<p>Proveravamo prikaz i ključne funkcije, a objavu, pristupe i održavanje dogovaramo pre lansiranja.</p></article></div></section>
+ <section id="faq" class="faq-section">
+-  <div class="section-header reveal"><p class="section-label">FAQ</p><div class="section-rule"></div></div>
++  <div class="section-header reveal">
++<p class="section-label">FAQ</p>
++<div class="section-rule"></div></div>
+   <h2 class="reveal">Pitanja i <em>odgovori</em></h2>
+   <div class="faq-list">
+-    <details class="faq-item reveal"><summary>Koliko košta izrada sajta?</summary><p>Cenu određujemo za svaki projekat posebno. Pošaljite nam kratak opis i odgovorićemo u roku od 1 sata radnim danima, uz okvirnu cenu i rok.</p><!-- TODO: Dodati početnu cenu „od X €” ako odlučimo. --></details>
+-    <details class="faq-item reveal"><summary>Koliko traje izrada projekta?</summary><p>Izrada jednostavnijeg sajta za malo preduzeće obično traje 2 do 4 nedelje. Veći sajtovi sa više stranica traju 6 do 10 nedelja, u zavisnosti od sadržaja i brzine povratnih informacija.</p><!-- TODO: Potvrditi rokove. --></details>
+-    <details class="faq-item reveal"><summary>Da li radite sa velikim kompanijama ili samo sa malim preduzećima?</summary><p>Radimo sa jednima i drugima: lokalnim preduzetnicima, startup kompanijama i etabliranim firmama. Proces je isti: jasni ciljevi, dogovoren obim posla i direktna komunikacija.</p></details>
+-    <details class="faq-item reveal"><summary>Šta vam je potrebno da započnemo saradnju?</summary><p>Kratak opis vašeg posla i ciljeva, primeri koji vam se dopadaju i logo ili sadržaj koji već imate. Pomažemo vam da osmislite strukturu i tekst.</p></details>
+-    <details class="faq-item reveal"><summary>Mogu li samostalno da menjam sajt nakon objavljivanja?</summary><p>Da. Sajtove pravimo u Webflow-u ili Framer-u, tako da možete sami da ažurirate tekst i slike. Pokazaćemo vam kako tokom primopredaje.</p></details>
+-    <details class="faq-item reveal"><summary>Da li pravite sajtove na srpskom i engleskom?</summary><p>Da. Sajt može biti na srpskom, engleskom ili oba jezika.</p></details>
+-    <details class="faq-item reveal"><summary>Šta znači „AI integracija”?</summary><p>To su praktične funkcije koje štede vreme, kao što su čet asistenti za česta pitanja, automatski odgovori na upite ili tokovi za pripremu sadržaja. Predlažemo ih samo kada su zaista korisne.</p></details>
+-    <details class="faq-item reveal"><summary>Sa kim ću sarađivati?</summary><p>Direktno sa naša dva suosnivača: kreativnim direktorom i programerom. Nema posrednika ni menadžera za klijente.</p></details>
+-  </div>
++<details class="faq-item"><summary>Kako dogovaramo uvodni poziv?</summary><p>Pošaljite e-poruku sa kratkim opisom posla, potrebom za sajt i nekoliko termina uz vašu vremensku zonu. Odgovorom dogovaramo poziv od 10 minuta. Poziv je potvrđen tek kada se obe strane slože oko termina.</p></details>
++<details class="faq-item"><summary>Kako određujete cenu i rok?</summary><p>Ponudu i rok pripremamo nakon dogovora o obimu, sadržaju i funkcijama. Cenu razmatramo sa vama privatno.</p></details>
++<details class="faq-item"><summary>Šta je potrebno od nas?</summary><p>Osnovne informacije o poslu, cilj sajta, logo i raspoloživi tekstovi i fotografije. Dogovaramo ko priprema sadržaj i ko odobrava svaku fazu.</p></details>
++<details class="faq-item"><summary>Šta je sa revizijama i dodatnim funkcijama?</summary><p>Broj revizija, uključene stranice i funkcije i način obračuna dodatnog rada definišemo u ponudi pre početka.</p></details>
++<details class="faq-item"><summary>Ko plaća domen, hosting i održavanje?</summary><p>Domen, hosting, pretplate i održavanje navodimo odvojeno u ponudi, sa jasnim odgovornostima i troškovima.</p></details>
++<details class="faq-item"><summary>Mogu li samostalno da menjam sajt?</summary><p>Platformu biramo prema potrebama za uređivanje. Pristupe, obuku i podršku dogovaramo pre izrade.</p></details>
++<details class="faq-item"><summary>Da li radite u različitim oblastima i na oba jezika?</summary><p>Da. Radimo sa firmama iz različitih oblasti. Sajt može biti na srpskom, engleskom ili oba jezika.</p></details></div>
+ </section>
+ 
+ <section class="contact-band" id="contact">
+   <div class="contact-inner">
+-    <div><p class="section-label">KONTAKT</p><h2>Recite nam nešto o svom <em>projektu</em></h2><p>Odgovaramo u roku od 1 sata radnim danima (pon–pet, 09:00–18:00 CET).</p></div>
++    <div class="contact-intro">
++      <p class="section-label">KONTAKT</p>
++      <h2>Dogovorite uvodni poziv od <em>10 minuta</em></h2>
++      <p>Kratak razgovor o vašem sajtu. Termin dogovaramo e-poštom.</p>
++    </div>
+     <div class="contact-details">
+-      <div class="contact-item"><span class="contact-item-label">E-pošta</span><a href="mailto:sningenia@gmail.com">sningenia@gmail.com</a></div>
+-      <div class="contact-item"><span class="contact-item-label">Lokacija</span><p>U Srbiji</p></div>
+-      <div class="contact-item"><span class="contact-item-label">Dostupnost</span><p>Otvoreni smo za projekte</p></div>
+-      <div class="contact-item"><span class="contact-item-label">Pratite nas</span><div class="social-row"><a class="social-link" href="https://www.instagram.com/sningenia/" target="_blank" rel="noopener noreferrer" aria-label="SNIngenia na Instagramu">IG</a><a class="social-link" href="https://www.linkedin.com/company/106868611/admin/dashboard/" target="_blank" rel="noopener noreferrer" aria-label="SNIngenia na LinkedIn-u">in</a></div></div>
++      <p class="contact-brief">Pošaljite kratak opis svog poslovanja i trenutni sajt (ako ga imate).</p>
++      <a class="btn-primary contact-email-button" href="mailto:sningenia@gmail.com?subject=Uvodni%20poziv%20od%2010%20minuta" data-cta="contact-email">Pošaljite e-poruku za uvodni poziv <span aria-hidden="true">↗</span></a>
++      <div class="contact-meta">
++        <div class="contact-item contact-email"><span class="contact-item-label">E-pošta</span><a class="contact-address" href="mailto:sningenia@gmail.com">sningenia@gmail.com</a></div>
++        <div class="contact-item"><span class="contact-item-label">Lokacija</span><p>U Srbiji</p></div>
++        <div class="contact-item"><span class="contact-item-label">Dostupnost</span><p>Otvoreni smo za projekte</p></div>
++      </div>
++      <div class="contact-socials"><span class="contact-item-label">Pratite nas</span><div class="social-row">
++        <a href="https://www.instagram.com/sningenia/" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a>
++        <a href="https://www.linkedin.com/company/106868611/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
++      </div></div>
+     </div>
+-    <!-- TODO: Povezati pravu endpoint adresu za slanje forme pre prihvatanja poruka. -->
+-    <form class="contact-form" id="contactForm" action="mailto:sningenia@gmail.com" method="post" enctype="text/plain" data-endpoint="" data-clarity-mask="true">
+-      <div class="form-honeypot" aria-hidden="true"><label for="website">Ostavite ovo polje prazno</label><input type="text" id="website" name="website" tabindex="-1" autocomplete="off"></div>
+-      <div class="form-row"><label for="name">Ime</label><input type="text" id="name" name="name" placeholder="Vaše ime" autocomplete="name" required></div>
+-      <div class="form-row"><label for="email">E-pošta</label><input type="email" id="email" name="email" placeholder="vi@primer.rs" autocomplete="email" required></div>
+-      <div class="form-row"><label for="message">Opis projekta</label><textarea id="message" name="message" rows="5" placeholder="Ukratko opišite projekat" required></textarea></div>
+-      <button type="submit" class="btn-primary">Pošaljite poruku</button>
+-      <p class="form-note">Odgovaramo u roku od 1 sata radnim danima.</p>
+-      <p class="form-note">Slanjem ove poruke pristajete na obradu podataka opisanu u našoj <a href="privacy.html">Politici privatnosti</a>.</p>
+-      <p class="form-success" id="contactSuccess" role="status" aria-live="polite" hidden>Hvala na poruci. Javićemo vam se uskoro.</p>
+-      <p class="form-error" id="contactError" role="alert" aria-live="assertive" hidden><span id="contactErrorMessage">Forma još nije povezana. Pošaljite nam e-poruku na</span> <a href="mailto:sningenia@gmail.com">sningenia@gmail.com</a>.</p>
+-      <noscript><p class="form-error">Za slanje forme potreban je JavaScript. Pišite nam na <a href="mailto:sningenia@gmail.com">sningenia@gmail.com</a>.</p></noscript>
+-    </form>
+   </div>
+ </section>
+ </main>
+@@ -236,26 +259,29 @@
+ <div class="project-modal" id="projectModal" aria-hidden="true">
+   <div class="modal-backdrop" id="modalBackdrop"></div>
+   <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+-    <button class="modal-close" id="modalClose" type="button" aria-label="Zatvori studiju slučaja">×</button>
++    <button class="modal-close" id="modalClose" type="button" aria-label="Zatvori detalje projekta">×</button>
+     <div class="modal-content">
+-      <div class="modal-meta"><span class="modal-tag">Studija slučaja</span><h2 id="modalTitle">Naziv projekta</h2><p class="modal-subtitle">Opis projekta.</p></div>
+-      <div class="modal-grid">
+-        <div class="modal-details">
+-          <div class="detail-row"><span>Uloga</span><strong>Frontend dizajn i razvoj</strong></div>
+-          <div class="detail-row"><span>Trajanje</span><strong>Vremenski okvir</strong></div>
+-          <div class="detail-row"><span>Isporuka</span><strong>Vizuelni sistem i sajt</strong></div>
+-        </div>
+-        <div class="modal-copy"><div class="modal-block"><h3>Izazov</h3><p>Opis izazova.</p></div><div class="modal-block"><h3>Rešenje</h3><p>Opis rešenja.</p></div></div>
+-      </div>
+-      <div class="modal-visual"><img id="modalImage" src="../images/case1.webp" alt="Slika studije slučaja" width="1200" height="800" loading="lazy"></div>
+-      <div class="modal-result"><h3>Rezultat</h3><p>Opis rezultata.</p></div>
++      <div class="modal-meta"><span class="modal-tag"></span><h2 id="modalTitle"></h2>
++<p class="modal-subtitle"></p></div>
++      <div class="modal-visual"><img id="modalImage" src="../images/case1.webp" alt="" width="1200" height="800" loading="lazy"></div>
++      <div class="modal-copy">
++<div class="modal-block">
++<h3>Namena</h3>
++<p></p></div>
++<div class="modal-block">
++<h3>Vizuelni pristup</h3>
++<p></p></div></div>
++      <div class="modal-result">
++<h3>O ovom prikazu</h3>
++<p></p></div>
++      <a class="btn-primary modal-call" href="#contact" data-cta="project-dialog">Dogovorite uvodni poziv od 10 minuta</a>
+     </div>
+   </div>
+ </div>
+ 
+-<footer><p>© 2026 SNIngenia. U Srbiji · Otvoreni smo za projekte</p><p>Veb dizajn, razvoj i AI integracija.</p><p><a class="footer-link" href="privacy.html">Politika privatnosti</a></p></footer>
+-
+-<script src="../analytics.js" defer></script>
++<footer><p>© 2026 SNIngenia. U Srbiji · Otvoreni smo za projekte</p>
++<p>Veb dizajn, razvoj i AI integracija.</p>
++<p><a class="footer-link" href="privacy.html">Politika privatnosti</a></p></footer>
+ <script src="../script.js"></script>
+ </body>
+ </html>
+diff --git a/privacy.html b/privacy.html
+--- a/privacy.html
++++ b/privacy.html
+@@ -6,20 +6,20 @@
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Privacy Policy | SNIngenia</title>
+   <meta name="description" content="Learn how SNIngenia collects, uses, stores and protects personal data when you contact us or visit our website.">
+-  <!-- TODO: Replace https://example.com with the production domain before launch. -->
+-  <link rel="canonical" href="https://example.com/privacy.html">
+-  <link rel="alternate" hreflang="en" href="https://example.com/privacy.html">
+-  <link rel="alternate" hreflang="sr" href="https://example.com/sr/privacy.html">
+-  <link rel="alternate" hreflang="x-default" href="https://example.com/privacy.html">
++  <link rel="canonical" href="https://www.sningenia.com/privacy.html">
++  <link rel="alternate" hreflang="en" href="https://www.sningenia.com/privacy.html">
++  <link rel="alternate" hreflang="sr" href="https://www.sningenia.com/sr/privacy.html">
++  <link rel="alternate" hreflang="x-default" href="https://www.sningenia.com/privacy.html">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
++<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
++  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+   <a class="skip-link" href="#main">Skip to content</a>
+   <header class="privacy-header">
+     <a class="nav-logo" href="index.html" aria-label="SNIngenia home">
+-      <img src="images/logo-header.svg" alt="SNIngenia" width="1536" height="1024">
++      <img src="images/logo-header.webp" alt="SNIngenia" width="1536" height="326">
+     </a>
+     <a class="privacy-home-link" href="index.html">Back to home</a>
+   </header>
+@@ -35,7 +35,7 @@
+ 
+     <section>
+       <h2>What data we collect</h2>
+-      <p>If you use our contact form, we collect only your name, email address and project brief. We also receive the content of emails you send us. The hidden honeypot field in the form is used only to help prevent spam.</p>
++      <p>When you email us, we receive your email address and the information you choose to share so we can reply to your enquiry and arrange an introductory call. This website has no contact form or direct booking system.</p>
+     </section>
+ 
+     <section>
+@@ -51,16 +51,13 @@
+ 
+     <section>
+       <h2>Who receives your data</h2>
+-      <p>Your enquiry is handled only by the form-processing and email providers we use to receive messages. We do not sell or share your enquiry information for advertising.</p>
+-      <!-- TODO: name the form provider once connected -->
++      <p>Messages sent to sningenia@gmail.com are received through Gmail, provided by Google. We do not sell or share enquiry information for advertising.</p>
+     </section>
+ 
+     <section>
+       <h2>Analytics</h2>
+-      <p>When configured, this site may use Google Analytics 4 and Microsoft Clarity to understand how visitors use the site, such as button clicks, form usage, pages viewed and scrolling. Analytics scripts are not loaded when your browser sends Do Not Track or Global Privacy Control signals. No contact form contents are sent to analytics providers, and the form is masked from Clarity recordings. When enabled, these providers may set cookies or other identifiers.</p>
+-      <p>Analytics providers are not loaded unless their IDs are configured in the site code.</p>
+-      <!-- TODO: update this section to match what is actually enabled -->
+-    </section>
++<p>This site currently loads no Google Analytics or Microsoft Clarity and sets no analytics cookies. We manually track received enquiries and mutually agreed calls. An email-link click is not a received enquiry or a confirmed call.</p>
++</section>
+ 
+     <section>
+       <h2>Your rights</h2>
+@@ -89,6 +86,5 @@
+     <p>Web design, development and AI integration.</p>
+     <p><a class="footer-link" href="privacy.html">Privacy Policy</a></p>
+   </footer>
+-  <script src="analytics.js" defer></script>
+ </body>
+ </html>
+diff --git a/sr/privacy.html b/sr/privacy.html
+--- a/sr/privacy.html
++++ b/sr/privacy.html
+@@ -6,20 +6,20 @@
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Politika privatnosti | SNIngenia</title>
+   <meta name="description" content="Saznajte kako SNIngenia prikuplja, koristi, čuva i štiti lične podatke kada nas kontaktirate ili posetite naš sajt.">
+-  <!-- TODO: Replace https://example.com with the production domain before launch. -->
+-  <link rel="canonical" href="https://example.com/sr/privacy.html">
+-  <link rel="alternate" hreflang="en" href="https://example.com/privacy.html">
+-  <link rel="alternate" hreflang="sr" href="https://example.com/sr/privacy.html">
+-  <link rel="alternate" hreflang="x-default" href="https://example.com/privacy.html">
++  <link rel="canonical" href="https://www.sningenia.com/sr/privacy.html">
++  <link rel="alternate" hreflang="en" href="https://www.sningenia.com/privacy.html">
++  <link rel="alternate" hreflang="sr" href="https://www.sningenia.com/sr/privacy.html">
++  <link rel="alternate" hreflang="x-default" href="https://www.sningenia.com/privacy.html">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
++<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
++  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="../styles.css">
+ </head>
+ <body>
+   <a class="skip-link" href="#main">Пређи на садржај</a>
+   <header class="privacy-header">
+     <a class="nav-logo" href="index.html" aria-label="SNIngenia — početna strana">
+-      <img src="../images/logo-header.svg" alt="SNIngenia" width="1536" height="1024">
++      <img src="../images/logo-header.webp" alt="SNIngenia" width="1536" height="326">
+     </a>
+     <a class="privacy-home-link" href="index.html">Nazad na početnu stranu</a>
+   </header>
+@@ -35,7 +35,7 @@
+ 
+     <section>
+       <h2>Koje podatke prikupljamo</h2>
+-      <p>Ako koristite kontakt formu, prikupljamo samo vaše ime, adresu e-pošte i opis projekta. Primamo i sadržaj poruka koje nam pošaljete e-poštom. Skriveno honeypot polje u formi koristimo samo za sprečavanje neželjene pošte.</p>
++      <p>Kada nam pošaljete e-poruku, primamo vašu adresu e-pošte i podatke koje odlučite da podelite radi odgovora na upit i dogovora za uvodni poziv. Sajt nema kontakt formu niti sistem za direktno zakazivanje.</p>
+     </section>
+ 
+     <section>
+@@ -51,16 +51,13 @@
+ 
+     <section>
+       <h2>Ko prima vaše podatke</h2>
+-      <p>Vaš upit obrađuju samo pružaoci usluga za obradu formi i e-pošte koje koristimo za prijem poruka. Ne prodajemo niti delimo podatke iz upita radi oglašavanja.</p>
+-      <!-- TODO: name the form provider once connected -->
++      <p>Poruke poslate na sningenia@gmail.com primamo putem usluge Gmail koju pruža Google. Ne prodajemo niti delimo podatke iz upita radi oglašavanja.</p>
+     </section>
+ 
+     <section>
+       <h2>Analitika</h2>
+-      <p>Kada je podešen, sajt može koristiti Google Analytics 4 i Microsoft Clarity da bismo razumeli kako ga posetioci koriste, na primer klikove na dugmad, korišćenje formi, pregledane stranice i skrolovanje. Analitičke skripte se ne učitavaju kada pregledač šalje Do Not Track ili Global Privacy Control signal. Sadržaj kontakt forme se nikada ne šalje analitičkim servisima, a forma je maskirana u Clarity snimcima. Kada su omogućeni, ovi servisi mogu postaviti kolačiće ili druge identifikatore.</p>
+-      <p>Analitički servisi se ne učitavaju ako njihovi ID-jevi nisu podešeni u kodu sajta.</p>
+-      <!-- TODO: update this section to match what is actually enabled -->
+-    </section>
++<p>Ovaj sajt trenutno ne učitava Google Analytics ili Microsoft Clarity i ne postavlja analitičke kolačiće. Ručno pratimo primljene upite i uzajamno dogovorene pozive. Klik na adresu e-pošte ne predstavlja primljen upit niti potvrđen poziv.</p>
++</section>
+ 
+     <section>
+       <h2>Vaša prava</h2>
+@@ -89,6 +86,5 @@
+     <p>Veb dizajn, razvoj i AI integracija.</p>
+     <p><a class="footer-link" href="privacy.html">Politika privatnosti</a></p>
+   </footer>
+-  <script src="../analytics.js" defer></script>
+ </body>
+ </html>
+diff --git a/script.js b/script.js
+--- a/script.js
++++ b/script.js
+@@ -1,25 +1,12 @@
+-const revealObserver = new IntersectionObserver((entries) => {
+-  entries.forEach((entry) => {
+-    if (!entry.isIntersecting) return;
+-
+-    const parent = entry.target.parentElement;
+-    const siblings = parent ? parent.querySelectorAll('.reveal:not(.visible)') : [entry.target];
+-    let delay = 0;
+-
+-    siblings.forEach((el) => {
+-      if (el === entry.target || el.getBoundingClientRect().top < window.innerHeight) {
+-        setTimeout(() => el.classList.add('visible'), delay);
+-        delay += 80;
+-      }
+-    });
+-
+-    entry.target.classList.add('visible');
+-    revealObserver.unobserve(entry.target);
+-  });
+-}, { threshold: 0.15 });
+-
+-document.querySelectorAll('.reveal').forEach((el) => revealObserver.observe(el));
+-
++const focusSection = (target) => {
++  const heading = target.querySelector('h1, h2') || target;
++  if (!heading.hasAttribute('tabindex')) {
++    heading.setAttribute('tabindex', '-1');
++    heading.addEventListener('blur', () => heading.removeAttribute('tabindex'), { once: true });
++  }
++  heading.focus({ preventScroll: true });
++  target.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
++};
+ const navToggle = document.querySelector('.nav-toggle');
+ const mobileNav = document.querySelector('.mobile-nav');
+ const navLinks = Array.from(document.querySelectorAll('.nav-links a, .mobile-nav-links a'));
+@@ -34,12 +21,12 @@ const openMobileNav = () => {
+   mobileNav.querySelector('a')?.focus();
+ };
+ 
+-const closeMobileNav = () => {
++const closeMobileNav = (restoreFocus = true) => {
+   mobileNav.setAttribute('inert', '');
+   mobileNav.setAttribute('aria-hidden', 'true');
+   navToggle.setAttribute('aria-expanded', 'false');
+   document.body.style.overflow = '';
+-  navToggle.focus();
++  if (restoreFocus) navToggle.focus();
+ };
+ 
+ navToggle?.addEventListener('click', () => {
+@@ -52,6 +39,7 @@ navToggle?.addEventListener('click', () => {
+ 
+ navLinks.forEach((link) => {
+   link.addEventListener('click', (event) => {
++    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+     const href = link.getAttribute('href') || '';
+     if (!href.startsWith('#')) return;
+ 
+@@ -59,9 +47,9 @@ navLinks.forEach((link) => {
+     if (!target) return;
+ 
+     event.preventDefault();
+-    const behavior = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
+-    target.scrollIntoView({ behavior, block: 'start' });
+-    closeMobileNav();
++    if (mobileNav.getAttribute('aria-hidden') === 'false') closeMobileNav(false);
++    history.pushState(null, '', href);
++    focusSection(target);
+   });
+ });
+ 
+@@ -95,23 +83,11 @@ const modalBackdrop = document.getElementById('modalBackdrop');
+ const modalClose = document.getElementById('modalClose');
+ const modalTitle = document.getElementById('modalTitle');
+ const modalSubtitle = document.querySelector('.modal-subtitle');
+-const modalDetails = document.querySelector('.modal-details');
+ const modalCopy = document.querySelector('.modal-copy');
+ const modalResult = document.querySelector('.modal-result');
+ const modalImage = document.getElementById('modalImage');
+-const contactForm = document.getElementById('contactForm');
+-const contactSuccess = document.getElementById('contactSuccess');
+-const contactError = document.getElementById('contactError');
+-const contactErrorMessage = document.getElementById('contactErrorMessage');
+ const isSerbian = document.documentElement.lang === 'sr';
+ 
+-const showContactError = (message) => {
+-  if (contactErrorMessage) contactErrorMessage.textContent = message;
+-  if (contactSuccess) contactSuccess.hidden = true;
+-  if (contactError) contactError.hidden = false;
+-  document.dispatchEvent(new CustomEvent('sn:form-error'));
+-};
+-
+ const focusableSelector = 'button, [href], input, textarea, select, [tabindex]:not([tabindex="-1"])';
+ let focusableModalElements = [];
+ let firstFocusableModal = null;
+@@ -141,6 +117,9 @@ const trapModalFocus = (event) => {
+ };
+ 
+ const openModal = () => {
++  document.querySelectorAll('body > :not(.project-modal):not(script)').forEach(el => {
++    if (!el.hasAttribute('inert')) { el.setAttribute('inert', ''); el.dataset.modalInert = 'true'; }
++  });
+   modal.classList.add('active');
+   modal.setAttribute('aria-hidden', 'false');
+   document.body.style.overflow = 'hidden';
+@@ -149,6 +128,7 @@ const openModal = () => {
+ };
+ 
+ const closeModal = () => {
++  document.querySelectorAll('[data-modal-inert]').forEach(el => { el.removeAttribute('inert'); delete el.dataset.modalInert; });
+   modal.classList.remove('active');
+   modal.setAttribute('aria-hidden', 'true');
+   document.body.style.overflow = '';
+@@ -165,22 +145,18 @@ cardOpenButtons.forEach((button) => {
+ 
+     const title = card.querySelector('.card-title')?.textContent?.trim() || 'Project title';
+     const description = card.querySelector('.card-desc')?.textContent?.trim() || '';
+-    const role = card.dataset.role || '';
+-    const timeline = card.dataset.timeline || '';
+-    const deliverables = card.dataset.deliverables || '';
+     const challenge = card.dataset.challenge || '';
+     const solution = card.dataset.solution || '';
+     const result = card.dataset.result || '';
+     const image = card.dataset.image || '';
+-    const detailValues = modalDetails.querySelectorAll('strong');
+ 
+     modalTitle.textContent = title;
+     modalSubtitle.textContent = description;
+-    if (detailValues.length >= 3) {
+-      detailValues[0].textContent = role;
+-      detailValues[1].textContent = timeline;
+-      detailValues[2].textContent = deliverables;
+-    }
++    document.querySelector('.modal-tag').textContent = card.dataset.status;
++    const demo = card.dataset.demo === 'true';
++    const headings = modalCopy.querySelectorAll('h3');
++    headings[0].textContent = isSerbian ? (demo ? 'Namena demo projekta' : 'Namena') : (demo ? 'Demo purpose' : 'Purpose');
++    headings[1].textContent = isSerbian ? 'Vizuelni pristup' : 'Visual approach';
+     modalCopy.querySelector('.modal-block:nth-of-type(1) p').textContent = challenge;
+     modalCopy.querySelector('.modal-block:nth-of-type(2) p').textContent = solution;
+     if (modalResult) {
+@@ -188,7 +164,7 @@ cardOpenButtons.forEach((button) => {
+     }
+     if (modalImage) {
+       modalImage.src = image;
+-      modalImage.alt = `${title} case study image`;
++      modalImage.alt = `${title} — ${isSerbian ? 'prikaz interfejsa' : 'interface preview'}`;
+     }
+ 
+     modalTrigger = button;
+@@ -196,6 +172,12 @@ cardOpenButtons.forEach((button) => {
+   });
+ });
+ 
++document.querySelector('.modal-call').addEventListener('click', (event) => {
++  event.preventDefault();
++  closeModal();
++  history.pushState(null, '', '#contact');
++  focusSection(document.getElementById('contact'));
++});
+ modalClose.addEventListener('click', closeModal);
+ modalBackdrop.addEventListener('click', closeModal);
+ 
+@@ -229,38 +211,6 @@ document.addEventListener('keydown', (event) => {
+   }
+ });
+ 
+-if (contactForm) {
+-  contactForm.addEventListener('submit', async (event) => {
+-    event.preventDefault();
+-    if (contactForm.elements.website.value) return;
+-
+-    const endpoint = contactForm.dataset.endpoint.trim();
+-    if (!endpoint) {
+-      showContactError(isSerbian
+-        ? 'Forma još nije povezana. Pošaljite nam e-poruku na'
+-        : 'The form is not connected yet. Please email');
+-      return;
+-    }
+-
+-    if (contactError) contactError.hidden = true;
+-    try {
+-      const response = await fetch(endpoint, {
+-        method: 'POST',
+-        body: new FormData(contactForm)
+-      });
+-      if (!response.ok) throw new Error('Form submission failed');
+-
+-      if (contactSuccess) contactSuccess.hidden = false;
+-      document.dispatchEvent(new CustomEvent('sn:form-success'));
+-      contactForm.reset();
+-    } catch {
+-      showContactError(isSerbian
+-        ? 'Poruku nije bilo moguće poslati. Pošaljite nam e-poruku na'
+-        : 'Your message could not be sent. Please email');
+-    }
+-  });
+-}
+-
+ const mobileCta = document.getElementById('mobileCta');
+ const heroSection = document.getElementById('home');
+ const contactSection = document.getElementById('contact');
+@@ -291,3 +241,10 @@ if (mobileCta && heroSection && contactSection && 'IntersectionObserver' in wind
+   heroObserver.observe(heroSection);
+   contactObserver.observe(contactSection);
+ }
++
++window.matchMedia('(max-width: 900px)').addEventListener('change', event => {
++  if (!event.matches && mobileNav.getAttribute('aria-hidden') === 'false') closeMobileNav(false);
++});
++
++// Enable enhanced controls only after essential handlers initialize successfully.
++document.documentElement.classList.add('site-ready');
+diff --git a/styles.css b/styles.css
+--- a/styles.css
++++ b/styles.css
+@@ -1015,8 +1015,7 @@ body.landing-page .footer-link { transition: color 0.2s ease-out; }
+ }
+ 
+ .reveal {
+-  opacity: 0; transform: translateY(8px);
+-  transition: opacity 0.22s ease-out, transform 0.22s ease-out;
++  opacity: 1; transform: none;
+ }
+ .reveal.visible { opacity: 1; transform: translateY(0); }
+ 
+@@ -1087,3 +1086,68 @@ body.landing-page .footer-link { transition: color 0.2s ease-out; }
+ button, input, textarea, a {
+   transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+ }
++
++/* Focused week-one content and contact refinements. */
++.call-note { margin-top: 1rem; color: var(--muted); font-size: .9rem; }
++.stat-label { line-height: 1.5; }
++.contact-details p + p { margin-top: 1.2rem; }
++.contact-address { user-select: text; overflow-wrap: anywhere; }
++.contact-details a:not(.btn-primary) { color: inherit; text-underline-offset: .2em; }
++.contact-details .btn-primary { white-space: normal; text-align: center; }
++.modal-copy { margin-top: 1.5rem; }
++.modal-call { margin-top: 1.5rem; }
++.fallback-nav { position: relative; display: flex; flex-wrap: wrap; gap: 1rem; padding: 6rem 5vw 1rem; }
++.fallback-nav a { color: var(--ink); }
++.project-card .card-tag { line-height: 1.5; }
++:is(section, .hero, #team, h1, h2)[id], section h2 { scroll-margin-top: 6rem; }
++@media (max-width: 900px) {
++  .nav-cta { white-space: normal; }
++  .mobile-nav .btn-primary { white-space: normal; text-align: center; }
++  .mobile-cta .btn-primary { white-space: normal; line-height: 1.4; }
++  body.landing-page footer { padding-bottom: 7rem; }
++  .project-modal .modal-panel { max-height: 90dvh; }
++}
++
++.site-ready .fallback-navigation { display: none; }
++html:not(.site-ready) .nav-toggle, html:not(.site-ready) .card-open { display: none; }
++.contact-inner { gap: 3rem; }
++.contact-inner h2 { font-size: clamp(2rem, 4vw, 3.5rem); }
++.modal-call { white-space: normal; text-align: center; }
++
++.contact-inner { grid-template-columns: 1.1fr 1fr; }
++.contact-details { gap: 1.2rem; }
++.contact-details p, .contact-details p + p { margin-top: 0; }
++.contact-band .btn-primary { background: var(--bg); color: var(--ink); }
++.contact-band .btn-primary:hover { background: var(--stone); }
++@media (max-width: 900px) { .contact-inner { grid-template-columns: 1fr; } }
++
++/* The no-script fallback must not shift page content when enhancement starts. */
++.fallback-navigation { position: absolute; top: 4rem; left: 0; right: 0; z-index: 90; background: var(--bg); }
++.fallback-nav { position: static; padding: 1rem 5vw; }
++
++/* Browser feedback: complete service grid and compact contact hierarchy. */
++.help-platform { background: rgba(98,70,234,.06); border-color: var(--accent); display: flex; flex-direction: column; justify-content: center; }
++.platform-note-label { color: var(--accent); font-size: .68rem; font-weight: 600; letter-spacing: .12em; margin-bottom: .8rem; }
++.help-platform h3 { margin-bottom: .55rem; }
++.contact-inner { grid-template-columns: 1.15fr 1fr; gap: clamp(2.5rem,6vw,6rem); }
++.contact-intro h2 { max-width: 13ch; }
++.contact-inner h2 em { color: var(--accent); font-style: normal; }
++.contact-intro > p:last-child { max-width: 37ch; color: var(--stone); }
++.contact-details { gap: 1.5rem; }
++.contact-brief { max-width: 40ch; }
++.contact-email-button { align-self: flex-start; display: inline-flex; gap: 1.5rem; align-items: center; }
++.contact-meta { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(196,185,168,.3); }
++.contact-meta .contact-email { grid-column: 1 / -1; }
++.contact-item-label { color: var(--stone); font-size: .68rem; letter-spacing: .12em; text-transform: uppercase; }
++.contact-details .contact-address { font-size: clamp(1.1rem,2vw,1.4rem); text-decoration: none; }
++.contact-socials { padding-top: .25rem; }
++.contact-socials .social-row { gap: 1.5rem; margin-top: .6rem; flex-wrap: wrap; }
++.contact-socials a { font-size: .9rem; text-decoration: none; }
++.contact-socials a:hover, .contact-address:hover { color: var(--accent); }
++@media (max-width: 900px) { .contact-inner { grid-template-columns: 1fr; } .contact-intro h2 { max-width: 16ch; } }
++@media (max-width: 360px) { .contact-meta { gap: 1.25rem .75rem; } .contact-email-button { padding-inline: 1.2rem; gap: .75rem; } }
++
++.contact-intro h2 { max-width: none; }
++.contact-intro h2 em { color: var(--sage); white-space: nowrap; }
++.contact-details .contact-meta a, .contact-details .contact-socials a { color: var(--bg); }
++.contact-details .contact-meta a:hover, .contact-details .contact-socials a:hover { color: var(--stone); }
+diff --git a/analytics.js b/analytics.js
+--- a/analytics.js
++++ b/analytics.js
+@@ -1,107 +1,4 @@
+-// Paste your GA4 Measurement ID (G-XXXXXXXXXX) and Clarity Project ID here.
+-const GA4_ID = '';
+-const CLARITY_ID = '';
+-
+-const analyticsAllowed = navigator.doNotTrack !== '1'
+-  && navigator.globalPrivacyControl !== true;
+-
+-window.snTrack = (name, params = {}) => {
+-  try {
+-    if (typeof window.gtag === 'function') {
+-      window.gtag('event', name, params);
+-    }
+-    if (typeof window.clarity === 'function') {
+-      window.clarity('event', name);
+-    }
+-  } catch (error) {
+-    console.error('Analytics tracking failed.', error);
+-  }
+-};
+-
+-if (analyticsAllowed && GA4_ID) {
+-  window.dataLayer = window.dataLayer || [];
+-  window.gtag = function gtag() {
+-    window.dataLayer.push(arguments);
+-  };
+-  window.gtag('js', new Date());
+-  window.gtag('config', GA4_ID);
+-
+-  const gaScript = document.createElement('script');
+-  gaScript.async = true;
+-  gaScript.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(GA4_ID)}`;
+-  document.head.appendChild(gaScript);
+-}
+-
+-if (analyticsAllowed && CLARITY_ID) {
+-  (function loadClarity(windowObject, documentObject, clarityId) {
+-    windowObject.clarity = windowObject.clarity || function clarity() {
+-      (windowObject.clarity.q = windowObject.clarity.q || []).push(arguments);
+-    };
+-    const clarityScript = documentObject.createElement('script');
+-    const firstScript = documentObject.getElementsByTagName('script')[0];
+-    clarityScript.async = true;
+-    clarityScript.src = `https://www.clarity.ms/tag/${encodeURIComponent(clarityId)}`;
+-    firstScript.parentNode.insertBefore(clarityScript, firstScript);
+-  })(window, document, CLARITY_ID);
+-}
+-
+-document.addEventListener('click', (event) => {
+-  const target = event.target instanceof Element ? event.target : null;
+-  if (!target) return;
+-
+-  const cta = target.closest('[data-cta]');
+-  if (cta) {
+-    window.snTrack('cta_click', {
+-      cta_name: cta.dataset.cta,
+-      link_text: cta.textContent.trim().replace(/\s+/g, ' '),
+-      page_path: window.location.pathname
+-    });
+-  }
+-
+-  const caseStudyButton = target.closest('.card-open');
+-  if (caseStudyButton) {
+-    const projectName = caseStudyButton.closest('.project-card')
+-      ?.querySelector('.card-title')?.textContent?.trim();
+-    if (projectName) {
+-      window.snTrack('case_study_open', { project_name: projectName });
+-    }
+-  }
+-
+-  const link = target.closest('a[href]');
+-  if (!link) return;
+-
+-  if (link.href.startsWith('mailto:')) {
+-    window.snTrack('email_click');
+-  } else if (link.classList.contains('language-switcher-link')
+-    || link.closest('.language-switcher')) {
+-    window.snTrack('language_switch', {
+-      target_language: link.lang || new URL(link.href).pathname
+-    });
+-  } else {
+-    const url = new URL(link.href, window.location.href);
+-    if ((url.protocol === 'http:' || url.protocol === 'https:')
+-      && url.origin !== window.location.origin) {
+-      window.snTrack('outbound_click', { link_domain: url.hostname });
+-    }
+-  }
+-});
+-
+-document.addEventListener('toggle', (event) => {
+-  const details = event.target;
+-  if (!(details instanceof HTMLDetailsElement) || !details.open) return;
+-  window.snTrack('faq_open', {
+-    question: details.querySelector('summary')?.textContent?.trim() || ''
+-  });
+-}, true);
+-
+-let formStarted = false;
+-document.addEventListener('focusin', (event) => {
+-  if (formStarted || !(event.target instanceof Element)) return;
+-  const formField = event.target.closest('#contactForm input, #contactForm textarea, #contactForm select');
+-  if (!formField || formField.name === 'website') return;
+-  formStarted = true;
+-  window.snTrack('form_start');
+-});
+-
+-document.addEventListener('sn:form-success', () => window.snTrack('form_submit_success'));
+-document.addEventListener('sn:form-error', () => window.snTrack('form_submit_error'));
++// Week-one measurement is manual. No analytics provider or cookies are loaded.
++// Reconcile received enquiries and mutually agreed calls in the private studio log.
++// An email-link click is neither a received enquiry nor a confirmed booking.
++// Enabling analytics requires an explicit measurement/privacy decision and verification.
+diff --git a/robots.txt b/robots.txt
+--- a/robots.txt
++++ b/robots.txt
+@@ -1,4 +1,3 @@
+-# TODO: Replace example.com with the production domain before launch.
+ User-agent: *
+ Allow: /
+-Sitemap: https://example.com/sitemap.xml
++Sitemap: https://www.sningenia.com/sitemap.xml
+diff --git a/sitemap.xml b/sitemap.xml
+--- a/sitemap.xml
++++ b/sitemap.xml
+@@ -1,28 +1,27 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<!-- TODO: Replace example.com with the production domain before launch. -->
+ <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+   <url>
+-    <loc>https://example.com/</loc>
+-    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/" />
+-    <xhtml:link rel="alternate" hreflang="sr" href="https://example.com/sr/" />
+-    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/" />
++    <loc>https://www.sningenia.com/</loc>
++    <xhtml:link rel="alternate" hreflang="en" href="https://www.sningenia.com/" />
++    <xhtml:link rel="alternate" hreflang="sr" href="https://www.sningenia.com/sr/" />
++    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sningenia.com/" />
+   </url>
+   <url>
+-    <loc>https://example.com/sr/</loc>
+-    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/" />
+-    <xhtml:link rel="alternate" hreflang="sr" href="https://example.com/sr/" />
+-    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/" />
++    <loc>https://www.sningenia.com/sr/</loc>
++    <xhtml:link rel="alternate" hreflang="en" href="https://www.sningenia.com/" />
++    <xhtml:link rel="alternate" hreflang="sr" href="https://www.sningenia.com/sr/" />
++    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sningenia.com/" />
+   </url>
+   <url>
+-    <loc>https://example.com/privacy.html</loc>
+-    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/privacy.html" />
+-    <xhtml:link rel="alternate" hreflang="sr" href="https://example.com/sr/privacy.html" />
+-    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/privacy.html" />
++    <loc>https://www.sningenia.com/privacy.html</loc>
++    <xhtml:link rel="alternate" hreflang="en" href="https://www.sningenia.com/privacy.html" />
++    <xhtml:link rel="alternate" hreflang="sr" href="https://www.sningenia.com/sr/privacy.html" />
++    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sningenia.com/privacy.html" />
+   </url>
+   <url>
+-    <loc>https://example.com/sr/privacy.html</loc>
+-    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/privacy.html" />
+-    <xhtml:link rel="alternate" hreflang="sr" href="https://example.com/sr/privacy.html" />
+-    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/privacy.html" />
++    <loc>https://www.sningenia.com/sr/privacy.html</loc>
++    <xhtml:link rel="alternate" hreflang="en" href="https://www.sningenia.com/privacy.html" />
++    <xhtml:link rel="alternate" hreflang="sr" href="https://www.sningenia.com/sr/privacy.html" />
++    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sningenia.com/privacy.html" />
+   </url>
+ </urlset>
+diff --git a/images/logo-header.webp b/images/logo-header.webp
+new file mode 100644
+index 0000000000000000000000000000000000000000..54320558c47cd0f3a2e5dfe33384e45890cd3808
+GIT binary patch
+literal 10172
+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
+
+literal 0
+HcmV?d00001
+
